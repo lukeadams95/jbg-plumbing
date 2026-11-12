@@ -36,7 +36,11 @@
   --slantPull: 0;
 
   --footGrid: minmax(0, 1fr);
+
+  /* Homepage hero booking card: full width once the hero stacks (940px) */
+  --heroCard: 100%;
 }
+@media (min-width: 940px) { :root { --heroCard: 500px; } }
 @media (min-width: 560px) { :root { --qPair: 1fr 1fr; --qAddr: 2fr 1fr; } }
 @media (min-width: 600px) { :root { --brandCols: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 680px) { :root { --cwCols: repeat(2, minmax(0, 1fr)); --revCols: 2; } }

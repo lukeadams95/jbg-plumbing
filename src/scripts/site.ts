@@ -16,6 +16,28 @@ $$('[data-act="menu"]').forEach((b) => {
   });
 });
 
+// --- Homepage: header "Request a Quote" scrolls to the hero booking card ----
+// On other pages the header button still goes to /quote-request/.
+// The header is sticky, so the card's scroll offset tracks its height.
+const bookCard = document.getElementById('book');
+if (bookCard) {
+  const header = document.querySelector('header');
+  const setOffset = () => { bookCard.style.scrollMarginTop = `${(header?.offsetHeight ?? 0) + 16}px`; };
+  setOffset();
+  addEventListener('resize', setOffset);
+  $$<HTMLAnchorElement>('header a[href="/quote-request/"]').forEach((a) => {
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (menu && !menu.hidden) {
+        menu.hidden = true;
+        $$('[data-act="menu"]').forEach((b) => b.setAttribute('aria-expanded', 'false'));
+      }
+      bookCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      history.replaceState(null, '', '#book');
+    });
+  });
+}
+
 // --- Reviews: "See more" and "Load more" -----------------------------------
 document.addEventListener('click', (e) => {
   const btn = (e.target as Element).closest<HTMLElement>('[data-act="rev-toggle"]');
@@ -196,8 +218,8 @@ $$<HTMLFormElement>('form[data-form]').forEach((form) => {
   const kind = form.dataset.form!;
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    if (kind === 'cta' || kind === 'hero') {
-      // CTA band + homepage hero forms: native required-field validation, then an inline thank-you.
+    if (kind === 'cta') {
+      // CTA band form: native required-field validation, then an inline thank-you.
       if (!(await send(form, kind))) return;
       const box = form.closest('[data-state="form"]')?.parentElement;
       box?.querySelector<HTMLElement>('[data-state="sent"]')?.removeAttribute('hidden');
