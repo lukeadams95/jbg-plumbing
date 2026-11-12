@@ -85,6 +85,12 @@ const SERVICE_IMG: Record<string, string> = {
   'Water Pressure Repair': 'water-pressure-repair.webp',
 };
 
+/** Homepage-only photo overrides ("Our Plumbing Services" grid). The Services
+ *  page's "We Also Handle" cards keep SERVICE_IMG. */
+const HOME_IMG: Record<string, string> = {
+  'Leak Detection': 'leak-detection-technician.webp',
+};
+
 const SOCIALS = [
   { name: 'Facebook', short: 'f', href: 'https://www.facebook.com/JBGPlumbingServices' },
   { name: 'X', short: 'X', href: 'https://twitter.com/JBGPlumbing' },
@@ -155,10 +161,11 @@ export function vals(page: PageKey) {
     };
   });
 
+  const imgOf = (label: string, map: Record<string, string>) => (map[label] ? encodeURI('/uploads/' + map[label]) : '');
   const services = SERVICES.map(([label, ic, href]) => ({
     label, href, cta: 'Learn more →',
     hasImg: !!SERVICE_IMG[label], noImg: !SERVICE_IMG[label],
-    img: SERVICE_IMG[label] ? encodeURI('/uploads/' + SERVICE_IMG[label]) : '',
+    img: imgOf(label, HOME_IMG) || imgOf(label, SERVICE_IMG),
     iconBig: icon(ic, '#716558', 64),
     // Prototype sizes this 22px under 700px and 28px above; the SVG scales to
     // its box via the --svcIconSvg variable.
@@ -190,7 +197,7 @@ export function vals(page: PageKey) {
     featured: ([['Grease Trap Cleaning', '/grease-trap-cleaning/', 'grease'], ['Backflow Testing', '/backflow-testing/', 'gauge'], ['Expansion Tank Installation', '/expansion-tank/', 'tank'], ['Commercial Boilers', '/boiler-installation/', 'bolt'], ['Gas Line Installation', '/gas-line-installation/', 'pipe'], ['Sump Pump Repair', '/sump-pump-repair/', 'pump']] as const)
       .map(([label, href, ic]) => ({ label, href, hasImg: false, noImg: true, icon: icon(ic, '#fff', 34) })),
     alsoCards: ['Water Heater Installation Repair', 'Sewer Line Cleaning Repair', 'Leak Detection', 'Septic Tank Cleaning', 'Slab Leak Repair', 'Waterline Replacement Repair', 'Water Pipe Repair Replacement', 'Water Pressure Repair', 'Water Filter Installation', 'Toilet Installation Repair', 'Faucet Installation', 'Video Inspection Services']
-      .map((l) => services.find((s) => s.label === l)!),
+      .map((l) => ({ ...services.find((s) => s.label === l)!, img: imgOf(l, SERVICE_IMG) })),
     rotWords: ['Salon', 'Restaurant', 'Retail', 'Gym', 'Home'].map((w, i, a) => {
       const on = i === 0;
       return { w, c: on ? '#fff' : '#D9CFC6', fw: on ? 900 : 500, bd: on ? '#BD1E2D' : 'transparent', sep: i < a.length - 1 ? '·' : 'Plumbing' };
