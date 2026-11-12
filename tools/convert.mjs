@@ -175,7 +175,8 @@ function render(node, scope, parentExtra, extra = {}) {
     if (p === 'quoteOpen') return ''; // modal never opened in the final design
     if (BP[p]) return `<div class="${BP[p]}">${children(node, scope)}</div>`;
     if (p === 'mobileOpen') return `<div class="bp-mob" data-mobile-menu hidden>${children(node, scope)}</div>`;
-    if (p === 'n.isOpen') return `<div class="dd">${children(node, scope)}</div>`;
+    // Prototype: isOpen = hovered && kids.length > 0, so items without sub-links get no panel.
+    if (p === 'n.isOpen') return `{n.hasKids && (<div class="dd">${children(node, scope)}</div>)}`;
     const err = /^(qs|cs)\.(\w+)$/.exec(p);
     if (err) return elems(node).map((c) => render(c, scope, null, { attrs: { hidden: true, 'data-err': `"${err[2]}"` } })).join('');
     if (/^(qSent|cSent|ctaSent)$/.test(p)) return `<div data-state="sent" hidden>${children(node, scope)}</div>`;
