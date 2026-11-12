@@ -25,6 +25,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" />
   {page === 'thanks' && <meta name="robots" content="noindex" />}
+  <!-- Feedbucket review widget: staging site (jbg-plumbing.pages.dev) only. -->
+  <script is:inline type="text/javascript">
+    if (location.hostname === 'jbg-plumbing.pages.dev') {
+      (function(k) {
+        let s=document.createElement('script');s.defer=true;
+        s.src="https://cdn.feedbucket.app/assets/feedbucket.js";
+        s.dataset.feedbucket=k;document.head.appendChild(s);
+      })('55FCUYP4nZ7LB1xtff3j')
+    }
+  </script>
 </head>
 <body data-page={page}>
   <div style="font-family:'Lato',Helvetica,Arial,sans-serif;color:#3A3530;line-height:1.7">
