@@ -112,7 +112,7 @@ function reviewItems(initial: number, truncate: boolean) {
 export function vals(page: PageKey) {
   const navItems: [string, string, Kid[]][] = [
     ['Home', '/', []],
-    ['About Us', '/about-us/', [kid('Contact Us', '/contact-us/'), kid('Service Areas', '/locations/')]],
+    ['About Us', '/about-us/', [kid('Service Areas', '/locations/')]],
     ['Services', '/services/', [
       grp('Residential'),
       kid('Water Heaters', '/services/water-heaters/'),
@@ -168,7 +168,7 @@ export function vals(page: PageKey) {
   const kidsOf = (l: string) => (nav.find((n) => n.label === l)?.kids ?? []).filter((k) => k.pe !== 'none');
   const fl = (label: string, href: string) => ({ label, href, fc: '#E6E0DA', fw: 500, fs: '15px', tt: 'none', ls: '0' });
   const footMenus = [
-    { title: 'Menu', links: [fl('Home', '/'), fl('Recent Projects', '/projects/'), fl('About Us', '/about-us/'), ...kidsOf('About Us').map((k) => fl(k.label, k.href)), fl('Reviews', '/reviews/')] },
+    { title: 'Menu', links: [fl('Home', '/'), fl('Recent Projects', '/projects/'), fl('About Us', '/about-us/'), fl('Contact Us', '/contact-us/'), ...kidsOf('About Us').map((k) => fl(k.label, k.href)), fl('Reviews', '/reviews/')] },
     { title: 'Commercial Plumbing', links: kidsOf('Services').map((k) => fl(k.label, k.href)) },
   ];
 
