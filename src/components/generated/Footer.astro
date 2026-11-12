@@ -45,7 +45,7 @@ const V = vals(page);
     </div>
     <div style="display:flex;gap:10px;flex-wrap:wrap;margin:40px 0 28px">
       {V.socials.map((s) => (<Fragment>
-        <a class="h9" href={s.href} aria-label={s.name ? 'true' : 'false'} title={s.name} style="min-width:46px;height:46px;padding:0 12px;border-radius:4px;border:1.5px solid #716558;color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center" data-item="socials">{s.short}</a>
+        <a class="h9" href={s.href} target="_blank" rel="noopener" aria-label={s.name ? 'true' : 'false'} title={s.name} style="min-width:46px;height:46px;padding:0 12px;border-radius:4px;border:1.5px solid #716558;color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center" data-item="socials">{s.short}</a>
       </Fragment>))}
     </div>
     <div style="border-top:1px solid #4A423B;padding-top:22px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:15px">
