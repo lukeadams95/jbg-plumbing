@@ -43,9 +43,9 @@ const SERVICE_PAGES: PageKey[] = ['services', 'grease', 'expansion', 'backflow',
 /** Pages without the "LET'S GET IT BUILT RIGHT." CTA band. */
 export const NO_CTA: PageKey[] = ['quote', 'terms', 'privacy', 'thanks'];
 
-type Kid = { label: string; href: string; weight: number; size: string; color: string; tt: string; bg: string; ring: string; pe: string };
-const kid = (label: string, href: string): Kid => ({ label, href, weight: 500, size: '15.5px', color: '#3A3530', tt: 'none', bg: 'transparent', ring: 'none', pe: 'auto' });
-const grp = (label: string): Kid => ({ label, href: '#', weight: 700, size: '12.5px', color: '#716558', tt: 'uppercase', bg: 'transparent', ring: 'none', pe: 'none' });
+type Kid = { label: string; href: string; weight: number; size: string; color: string; tt: string; bg: string; ring: string; pe: string; mob: string };
+const kid = (label: string, href: string): Kid => ({ label, href, weight: 500, size: '15.5px', color: '#3A3530', tt: 'none', bg: 'transparent', ring: 'none', pe: 'auto', mob: 'block' });
+const grp = (label: string): Kid => ({ label, href: '#', weight: 700, size: '12.5px', color: '#716558', tt: 'uppercase', bg: 'transparent', ring: 'none', pe: 'none', mob: label.trim() ? 'block' : 'none' }); // the nbsp spacer only breaks the desktop dropdown into columns
 
 const SERVICES: [string, string, string][] = [
   ['Water Heater Installation Repair', 'bolt', '/services/water-heaters/#water-heater-installation-repair'],
