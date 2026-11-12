@@ -196,8 +196,8 @@ $$<HTMLFormElement>('form[data-form]').forEach((form) => {
   const kind = form.dataset.form!;
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    if (kind === 'cta') {
-      // CTA band form: native required-field validation, then an inline thank-you.
+    if (kind === 'cta' || kind === 'hero') {
+      // CTA band + homepage hero forms: native required-field validation, then an inline thank-you.
       if (!(await send(form, kind))) return;
       const box = form.closest('[data-state="form"]')?.parentElement;
       box?.querySelector<HTMLElement>('[data-state="sent"]')?.removeAttribute('hidden');

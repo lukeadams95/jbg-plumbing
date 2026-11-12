@@ -49,7 +49,7 @@ const RESPONSIVE = new Set(['svcCols', 'svcGap', 'svcImgH', 'svcPull', 'svcPad',
 const isIcon = (p) => /^(s\.iconBig|s\.iconW|f\.icon|o\.icon|phoneIcon|menuIcon|phoneDark|icons\.\w+)$/.test(p);
 // Handlers that only performed client-side routing; links are real now.
 const NAV_HANDLERS = new Set(['openQuote', 'n.click', 's.click', 'l.click', 'n.leave', 'qDrag', 'stop', 'closeQuote']);
-const FORMS = { qSubmit: 'quote', cSubmit: 'contact', submitCta: 'cta' };
+const FORMS = { qSubmit: 'quote', cSubmit: 'contact', submitCta: 'cta', submitHero: 'hero' };
 const BP = { isDesktop: 'bp-desk', isMobile: 'bp-mob', ctaDesk: 'bp-cta-desk', ctaMob: 'bp-cta-mob' };
 const VOID = new Set(['img', 'input', 'br', 'hr', 'meta', 'link', 'source', 'area', 'col', 'embed', 'wbr', 'track']);
 
@@ -179,8 +179,8 @@ function render(node, scope, parentExtra, extra = {}) {
     if (p === 'n.isOpen') return `{n.hasKids && (<div class="dd">${children(node, scope)}</div>)}`;
     const err = /^(qs|cs)\.(\w+)$/.exec(p);
     if (err) return elems(node).map((c) => render(c, scope, null, { attrs: { hidden: true, 'data-err': `"${err[2]}"` } })).join('');
-    if (/^(qSent|cSent|ctaSent)$/.test(p)) return `<div data-state="sent" hidden>${children(node, scope)}</div>`;
-    if (/^(qForm|cForm|ctaForm)$/.test(p)) return `<div data-state="form">${children(node, scope)}</div>`;
+    if (/^(qSent|cSent|ctaSent|heroSent)$/.test(p)) return `<div data-state="sent" hidden>${children(node, scope)}</div>`;
+    if (/^(qForm|cForm|ctaForm|heroForm)$/.test(p)) return `<div data-state="form">${children(node, scope)}</div>`;
     return `{${jsPath(p, scope)} && (<Fragment>${children(node, scope)}</Fragment>)}`;
   }
   if (name === 'sc-for') {
