@@ -185,7 +185,7 @@ async function send(form: HTMLFormElement, kind: string) {
     return true;
   } catch (err) {
     console.error(err);
-    alert('Sorry, we could not send your request. Please call us at (888) 512-4107.');
+    alert('Sorry, we could not send your request. Please call us at (979) 777-4420.');
     return false;
   } finally {
     if (button) button.disabled = false;
