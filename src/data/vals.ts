@@ -96,6 +96,9 @@ const SOCIALS = [
 
 /** Initial number of reviews shown (homepage / reviews page) and page size of "Load more". */
 export const HOME_REVIEWS = 6;
+/** Total Google review count (4.7 stars from 558 reviews), shown in "Showing N of 558 reviews".
+ *  The site only carries the reviews in reviews-raw.js, so "Load more" stops at that list's end. */
+export const GOOGLE_REVIEW_COUNT = 558;
 export const ALL_REVIEWS = 30;
 
 /** Truncation used by the homepage review cards ("See more"). */
@@ -194,8 +197,8 @@ export function vals(page: PageKey) {
     }),
     icons: { tag: icon('tag', '#fff', 30), drop: icon('drop', '#fff', 30), bolt: icon('bolt', '#fff', 30), tank: icon('tank', '#fff', 30), shield: icon('shield', '#fff', 30) },
     phoneIcon: icon('phone', '#fff', 22), menuIcon: icon('menu', '#fff', 24), phoneDark: icon('phone', '#716558', 30),
-    visibleReviews, shownCount: Math.min(HOME_REVIEWS, total), totalCount: total, canLoadMore: HOME_REVIEWS < total,
-    allReviews, allShown: Math.min(ALL_REVIEWS, total), allTotal: total, allCanLoad: ALL_REVIEWS < total,
+    visibleReviews, shownCount: Math.min(HOME_REVIEWS, total), totalCount: GOOGLE_REVIEW_COUNT, canLoadMore: HOME_REVIEWS < total,
+    allReviews, allShown: Math.min(ALL_REVIEWS, total), allTotal: GOOGLE_REVIEW_COUNT, allCanLoad: ALL_REVIEWS < total,
     mapSrc: 'https://maps.google.com/maps?q=' + encodeURIComponent('580 Graham Rd Ste D, College Station, TX 77845') + '&z=15&output=embed',
     wtOpts: [['Residential Plumbing', 'home'], ['Commercial Plumbing', 'building'], ['New Commercial Construction', 'crane']].map(([l, ic]) => opt(l, ic)),
     cmOpts: ['Phone', 'Email', 'Text'].map((l) => opt(l)),
