@@ -1,0 +1,91 @@
+/*
+ * Width-dependent values from the prototype's renderVals(), which read
+ * window.innerWidth. Each becomes a CSS variable with the same breakpoints.
+ * The converter rewrites {{ name }} / {{ name }}px bindings to var(--name).
+ */
+:root {
+  /* Homepage + Services "service cards" (ms = width < 700) */
+  --svcCols: repeat(2, minmax(0, 1fr));
+  --svcGap: 28px 14px;
+  --svcImgH: 120px;
+  --svcPull: -44px 8px 0;
+  --svcPad: 32px 8px 14px;
+  --svcInner: 8px;
+  --svcIconBox: 44px;
+  --svcIconTop: -22px;
+  --svcIconSvg: 22px;
+  --svcName: 15px;
+  --svcCta: 13px;
+
+  --cwCols: minmax(0, 1fr);
+  --cfCols: minmax(0, 1fr);
+  --fb3: 100%;
+  --gt2: minmax(0, 1fr);
+  --brandCols: minmax(0, 1fr);
+  --gtCols: minmax(0, 1fr);
+  --featCols: minmax(0, 1fr);
+  --revCols: 1;
+  --qCols: minmax(0, 1fr);
+  --qPair: 1fr;
+  --qAddr: 1fr;
+
+  /* CTA band + homepage slanted panel (900px) */
+  --ctaPad: 0px;
+  --ctaCols: 1fr;
+  --clipSlant: none;
+  --slantPull: 0;
+
+  --footGrid: minmax(0, 1fr);
+}
+@media (min-width: 560px) { :root { --qPair: 1fr 1fr; --qAddr: 2fr 1fr; } }
+@media (min-width: 600px) { :root { --brandCols: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 680px) { :root { --cwCols: repeat(2, minmax(0, 1fr)); --revCols: 2; } }
+@media (min-width: 700px) {
+  :root {
+    --svcGap: clamp(24px, 3vw, 40px) 28px;
+    --svcImgH: 250px;
+    --svcPull: -92px 26px 0;
+    --svcPad: 44px 20px 24px;
+    --svcInner: 14px;
+    --svcIconBox: 56px;
+    --svcIconTop: -28px;
+    --svcIconSvg: 28px;
+    --svcName: 20px;
+    --svcCta: 15px;
+    --fb3: calc((100% - 24px) / 2);
+    --gt2: repeat(2, minmax(0, 1fr));
+    --featCols: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 900px) {
+  :root {
+    --cfCols: minmax(0, 1fr) minmax(0, 1fr);
+    --qCols: minmax(0, 1.85fr) minmax(0, 1fr);
+    --ctaPad: 30px;
+    --ctaCols: 1.5fr 1fr;
+    --clipSlant: polygon(0 0, 100% 0, 88% 100%, 0 100%);
+    --slantPull: -60px;
+  }
+}
+@media (min-width: 1000px) {
+  :root {
+    --cwCols: repeat(4, minmax(0, 1fr));
+    --fb3: calc((100% - 48px) / 3);
+    --brandCols: repeat(4, minmax(0, 1fr));
+    --gtCols: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  :root { --svcCols: repeat(4, minmax(0, 1fr)); --featCols: repeat(3, minmax(0, 1fr)); --revCols: 3; }
+}
+@media (min-width: 1080px) { :root { --footGrid: repeat(3, minmax(0, 1fr)); } }
+
+/* isDesktop / isMobile (1080px) and ctaDesk / ctaMob (900px) blocks.
+   display:contents keeps the wrapper out of layout. */
+.bp-desk, .bp-mob, .bp-cta-desk, .bp-cta-mob { display: contents; }
+@media (max-width: 1079.98px) { .bp-desk { display: none; } }
+@media (min-width: 1080px) { .bp-mob { display: none; } }
+@media (max-width: 899.98px) { .bp-cta-desk { display: none; } }
+@media (min-width: 900px) { .bp-cta-mob { display: none; } }
+
+.svc-icon-w { width: var(--svcIconSvg); height: var(--svcIconSvg); }

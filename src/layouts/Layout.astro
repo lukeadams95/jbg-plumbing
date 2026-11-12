@@ -1,0 +1,41 @@
+---
+import '../styles/base.css';
+import '../styles/responsive.css';
+import '../styles/generated.css';
+import Header from '../components/generated/Header.astro';
+import Cta from '../components/generated/Cta.astro';
+import Footer from '../components/generated/Footer.astro';
+import MobileCallBar from '../components/generated/MobileCallBar.astro';
+import { NO_CTA, type PageKey } from '../data/vals';
+import { pageTitle } from '../data/meta';
+
+interface Props { page: PageKey }
+const { page } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{pageTitle(page)}</title>
+  <link rel="canonical" href={canonical} />
+  <link rel="icon" href="/uploads/JBG-logo1.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" />
+  {page === 'thanks' && <meta name="robots" content="noindex" />}
+</head>
+<body data-page={page}>
+  <div style="font-family:'Lato',Helvetica,Arial,sans-serif;color:#3A3530;line-height:1.7">
+    <Header page={page} />
+    <main><slot /></main>
+    {!NO_CTA.includes(page) && <Cta page={page} />}
+    <Footer page={page} />
+    <MobileCallBar page={page} />
+  </div>
+  <script>
+    import '../scripts/site';
+  </script>
+</body>
+</html>

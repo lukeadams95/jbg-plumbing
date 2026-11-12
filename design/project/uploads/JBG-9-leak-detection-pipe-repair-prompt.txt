@@ -1,0 +1,92 @@
+Edit the SAME existing file. Do not create a new file, page or project.
+
+RULES
+- Do NOT touch the homepage in any way.
+- Design: you handle the design. Match the existing site design system, the About Us page and the other service pages.
+- Content: use ONLY the content below, word for word and section for section. Do not add, remove, shorten or reword anything. Every heading and paragraph below must appear.
+- Hero height: use exactly the same hero height as the About Us page.
+- No breadcrumbs.
+- The SECTION labels below are for your reference only. Only lines marked "Heading:" or "Subheading:" appear as headings on the page.
+- Give each section the anchor id listed, so links like /page/#anchor-id scroll straight to it (offset for the sticky header).
+- Use the same header and footer as the homepage, with "Services" shown as the active nav item.
+
+━━━━━━━━━━━━━━━━━━━━
+NEW PAGE: Leak Detection & Pipe Repair (/services/leak-detection-pipe-repair/)
+━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1: HERO
+Heading: Leak Detection & Pipe Repair
+Subheading: Leak Detection · Slab Leaks · Leaking Pipes · Waterlines
+Background image: https://i0.wp.com/jbgplumbingtx.com/wp-content/uploads/2018/04/Commercial-Plumber-wirsbo-pipe-install-495x400.jpg
+
+SECTION 2: JUMP LINKS
+A row of 4 buttons that scroll to each section below: Leak Detection · Slab Leak Repair · Leaking Pipe Repair · Waterline Repair
+
+SECTION 3: LEAK DETECTION (anchor id: leak-detection)
+Heading: Leak Detection
+Paragraph: Most often, the source of leaking pipes is a failed joint. It's true that pipes corrode and fixtures break, but we check the points of contact first: joints. Stripped threads, insufficiently tightened joints, and soldering problems create plumbing problems. JBG sees these issues every day. Freezing, shifting foundations, and water pressure variation all contribute to joint failure. On new installation, the joints need to be checked and double checked to ensure years of dependable service. So, when you detect a water leak, give JBG a call.
+Callout box (PRO-TIP): Want to see if you have a water leak? Go read your water meter and then shut off all your faucets — don't flush a toilet or run the laundry/dishwasher. Read the meter after a few hours. If there is a change, you are LOSING water (and money) somewhere. Your next call should be JBG Plumbing!
+Link: "Learn about Video Pipe Inspection →" → /services/sewer-drain-septic/#video-inspection-services
+
+SECTION 4: SLAB LEAK REPAIR (anchor id: slab-leak-repair)
+Heading: Slab Leak Repair College Station
+Paragraph 1: Your concrete slab is the foundation of your home. A pesky leak caused by a broken pipe can compromise the entire structure. Unaddressed leaks erode base material under the foundation and this causes the weight of your house to distribute pressure weight unevenly. As you can imagine, over time this will produce stress fractures in the slab. This is a complicated way of saying, "water leaks can break your house!" There are other problems as well.
+Paragraph 2: Keep an eye on your water bill. An unusually high bill may indicate a leak under your concrete slab. The sound of running water when all appliances and fixtures are dormant is another big clue that you need to do a little investigating.
+Paragraph 3: If you notice any spots on the flooring of your home that are warm to the touch, a break in a hot water line underneath your slab is usually the culprit.
+Paragraph 4: Lastly, mildew or unexpected moisture on your carpet or flooring should also alert you to a water leak coming through cracks in your slab. Not only does the slab leak issue go unresolved, but the saturation of your carpet could lead to irreparable damage.
+Paragraph 5: We know how frustrating slab leaks can be. Give JBG a call to repair a slab leak with professional, timely service.
+
+Subheading: Detecting Slab Leaks (5 symptom cards)
+Intro: The average slab leak can appear as other plumbing problems, which makes this problem difficult to diagnose for non-plumbing specialists. The symptoms typically include:
+- Sounds of running water in walls or underneath the floor. When water is coursing through the pipes in your home, you'll be able to hear the sound of running water. This is very normal. However, if you can hear the sound of running water but do not have any appliances running, this could mean you have a substantial leak.
+- Cracking or buckling foundation. If your foundation is buckling, you'll see growing cracks in the foundation around the outside of your home, as well as in the floors and even the walls inside your home.
+- Carpet mildew or mold, usually accompanied by odor. This occurs when the foundation becomes saturated with water and that moisture is starting to leak into the property.
+- Your water bill is higher than usual. A high water bill is an extremely common sign that there could be a leak somewhere in your property, but this does not necessarily mean there is a leak beneath the foundation. Check your faucets and any exposed pipes beneath your sink to detect the source of the leak. If your water bill is extremely high, this could be a sign that you're losing a significant amount of water somewhere in your plumbing system. If the plumbing inside your home seems to be sealed and intact, then you may very well have a leak beneath your home's foundation.
+- Warm, wet spots on your floor. If warm water is leaking from a pipe beneath your home's foundation, it may create mysterious warm damp puddles on the floor of your home.
+Paragraph: Buckling, cracking and other problems resulting from slab leaks may lead to significant cosmetic and structural damage in your home that can even become dangerous. If the leak enters your home, your belongings are likely to become damaged or even destroyed. It's vital that if you experience any of these symptoms of a Slab Leak to call us at JBG Plumbing immediately for a diagnosis.
+
+Subheading: Repairing Slab Leaks (3 method cards)
+Intro: There are quite a few methods for repairing slab leaks, and some more intensive than others. Depending on the specific type of leak and the location of the leak in your home, one of our talented plumbers may choose from one or two of the following techniques:
+- Cutting open the foundation to fix the pipe. This is a common method for fixing newer pipes in newer homes.
+- Repiping the entire line as a whole. This method is commonly used in significantly older or historical homes where pipe leaks are a frequent and reoccurring issue.
+- Pipe coating. This treatment is used when a home's pipes can't easily or affordably be repaired by opening up the building's foundation. The pipe is fixed from within, using an epoxy pipe coating and specific repair methods.
+Paragraph 1: If you suspect that your piping is causing slab leaks, it is vital that you contact an experienced and qualified plumber at the first signs of trouble. Our plumbers at JBG Plumbing have special industry-grade equipment that can be used to make an effective diagnosis and detect and locate a leak beneath your home's foundation.
+Paragraph 2: If your home suffers from slab damage, contact your insurance company! Not all homeowners' specific insurance policies will cover this type of damage. However, there are known cases of homeowners successfully filing claims for damage from slab leaks as the result of piping issues.
+
+Subheading: Why Choose JBG Plumbing for Your Slab Leak Repair?
+Paragraph 1: JBG Plumbing has a crew of slab leak repair experts who are ready to take on any slab leak issue your home may have in the College Station, Texas area.
+Paragraph 2: If you're concerned about a leak coming from underneath your cement floor, it's certainly comforting to know that a reliable and trustworthy plumber from JBG Plumbing can tackle issues of prevention, maintenance, repair, and replacement of slab in your home's foundation. JBG Plumbing offers high-quality work and quick turnaround times for slab leak repair. We're licensed, experienced and insured.
+
+SECTION 5: LEAKING PIPE REPAIR (anchor id: water-pipe-repair-replacement)
+Heading: Leaking Pipe Repair College Station
+Subheading: 6 Areas in Your Home Where Your Pipes Might Leak
+Paragraph 1: Leaky pipes can be the bane of a homeowner's existence. They start out as small wet spots on the floor and on drywall, they can lead to flooding and extensive water damage, and they can drive up your water bill unnecessarily. Even in new homes, and even with newer appliances, a leaky pipe can be a nightmare, costing you hundreds of dollars, hours of your time, and much of your sanity.
+Paragraph 2: There are a few areas in every home that are likely culprits for leaky pipes, and as a homeowner, it's important to be aware of the potential for leaks in these spots. Keep an eye on these six areas in your home, both for leaks and for potential plumbing upgrades to prevent future leaks.
+6 numbered cards (3 × 2 grid on desktop):
+1. Refrigerator icemaker: It's tough to beat the convenience of an automatic ice maker right in the door of your fridge, but unfortunately, that convenience can come at a hefty price. There are several places where your ice maker can break and start to leak, whether it's a faulty valve, a filter that's been clogged up, a water line that's cracked from being too close to the freeze and thaw cycle, and small hoses that aren't made especially well, to begin with. Pay close attention to anything that seems awry with your ice maker, whether it's unusual noise or a small puddle on the floor, as it can be the first sign of trouble. You can also have your plumber replace the original line with one made of more sturdy material.
+2. Water heater: The average life span of a water heater is about ten years, but with its daily use, that doesn't mean things can't go wrong inside of a decade. Shut off valves can stop working properly, pipes and fittings can crack, and the anode rod may be long past replacing. Fortunately, regular inspection by a plumber to make sure everything is working properly can go a long way in preventing a leak, and you'll be able to replace an older tank before it bursts and causes a real mess.
+3. Toilets: A leaking toilet might not always cause damage to your home, especially if the leak is inside the tank, but it will certainly cause damage to your wallet. If you hear your toilet running frequently and notice an uptick on your water bill, it's likely that there's a faulty valve or an improper seal. Damage-causing leaks may come from a break in the flexible braided pipe behind the toilet or a loose connection at the base. Both of these are fairly straightforward repairs, but you definitely will want to address them immediately.
+4. Sinks: Whether the sink is in your bathroom, your kitchen, your laundry room, or somewhere else in your home, it's possible to have leaks either from the faucet or under the sink itself. A leaky faucet isn't likely to cause damage, but it will run up your water bill. This is usually caused by a worn out part (like a washer, valve, or o-ring) that needs replacing. Under the sink, the cause will either be a faulty hose, joint, or seal in the supply line or the drain line. All of these are relatively simple fixes, but taking care of them early is the key to preventing water damage.
+5. Washing machine: Most home washing machines are workhorses, and while the machines themselves aren't necessarily prone to leaking, the hoses that bring water in and out of them are. Replacing old hoses on an otherwise functioning washing machine is one way to stave off any potential problems, especially if the older hoses show signs of wear. For peace of mind when you're out of town, turn off the water supply to your washer before you leave your home for an extended period of time.
+6. Dishwasher: Much like washing machines, supply and drain hoses are often the cause of dishwasher leaks, though, on older models, the seal can wear out and cause leaks around the perimeter of the door. Try to get in the habit of visually inspecting the seal once a month to spot signs of weakness. Dishwasher leaks will usually (though not always) start small, so take action at the first sign of water getting out.
+Paragraph: If you're located in the Bryan or College Station, Texas area, give us a call for all of your plumbing needs. Whether you've got a leak that needs immediate attention or want to do some preventative maintenance, JBG Plumbing can handle all of your residential plumbing needs.
+
+SECTION 6: WATERLINE REPAIR (anchor id: waterline-replacement-repair)
+Heading: Waterline Repair College Station
+Paragraph 1: The best tools for diagnosing waterline issues are your primary senses: your eyes and ears. How is that for high-tech diagnostics!? For instance, if you happen to see large pools of water forming under your grass or a very large number at the bottom of your water bill — you might need to consider calling an experienced plumber. A waterline issue can be an expensive nuisance, but catching them early is really important.
+Paragraph 2: If you hear your shoes squish in soggy grass, if you hear knocking pipes, gurgling, or hissing from pipes in your walls, you should trust your ears and give us a call. We will get to the bottom of those noises quickly and potentially save you from needless expenses down the road.
+Paragraph 3: Lastly, if you can feel a loss of pressure while in the shower or while washing dishes at the sink — you'll need to call a plumber who can diagnose and remedy the situation. JBG will get the job done right the first time. We pride ourselves on the highest level of customer service. Give us a call and find out why we've earned our good reputation.
+
+SECTION 7: CTA
+Heading: Need help? We're available 24/7.
+Text: Serving Brazos, Milam, Robertson and Grimes County.
+Buttons: "Request a Quote" → /quote-request/ · "(888) 512-4107" → tel:8885124107
+
+━━━━━━━━━━━━━━━━━━━━
+FINAL CHECK (confirm before finishing)
+━━━━━━━━━━━━━━━━━━━━
+1. The homepage is unchanged.
+2. All 7 sections above are present, in this order, with every paragraph, list item and card word for word. Nothing was dropped or shortened.
+3. Every section has its anchor id, and the jump links scroll to the right section.
+4. The hero is exactly the same height as the About Us hero.
+5. You edited the same existing file.

@@ -1,0 +1,53 @@
+Edit the SAME existing file. Do not create a new file, page or project.
+
+RULES
+- Do NOT touch the homepage in any way.
+- Design: you handle the design. Match the existing site design system, the About Us page and the Services page.
+- Content: use ONLY the content below, word for word and section for section. Do not add, remove, shorten or reword anything. Every heading and paragraph below must appear.
+- Hero height: use exactly the same hero height as the About Us page.
+- No breadcrumbs.
+- The SECTION labels below are for your reference only. Only lines marked "Heading:" appear as headings on the page.
+- Use the same header and footer as the homepage, with "Services" shown as the active nav item.
+
+━━━━━━━━━━━━━━━━━━━━
+NEW PAGE: Expansion Tank (/expansion-tank/)
+━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1: HERO
+Heading: Expansion Tanks
+Subheading: Setup & Installation
+Background image: https://i0.wp.com/jbgplumbingtx.com/wp-content/uploads/2016/11/Expansion-Tanks-College-Station-1440x430.jpeg
+
+SECTION 2: EXPANSION TANKS COLLEGE STATION
+Heading: Expansion Tanks College Station
+Paragraph 1: Expansion tanks are a relatively inexpensive way to improve your plumbing system.
+Paragraph 2: These devices go hand in hand with your water heater to ensure that the pressure of your water system remains balanced. An expansion tank controls pressurization when hot water expands by absorbing the expansion produced by the high temperature of the water. When water is heated, it expands. So you might think of an expansion tank as a shock absorber for your water heater.
+Paragraph 3: Expansion tanks can make your plumbing system more effective and take some burden off your valves, but they can develop their own issues. Here are a few problems:
+
+SECTION 3: COMMON PROBLEMS (3 numbered cards)
+Card 1
+Heading: Problem 1: Excess Water
+Text: Because expansion tanks absorb the expansion of hot water, they can take on an excess amount of water. If the valves aren't in tip-top shape, then this water buildup has no way to exit the expansion tank. You're risking dangerous annoyances, like home and electrical damage or even explosion, by ignoring excess water signs in expansion tanks. Watch for dripping water from the pressure relief valve, and if there is a little bit of leakage, give us a call to inspect the tank.
+Card 2
+Heading: Problem 2: Valve Issues
+Text: This nuisance is somewhat related to Problem 1. Problems can arise with valves and tubes when they become clogged, rusted or start to break. Being aware of your hot water system is the best way to monitor the state of the valves that are connected to your expansion tank and hot water system. Periodically run your eyes over the plumbing and look for signs of rust or dripping water.
+Card 3
+Heading: Problem 3: Condensation
+Text: If the expansion tank is storing too much water or if the heat is too high on the hot water system, condensation could build on the outside of the tank. This is even more likely to happen on tanks that don't have much breathing room or ones that are small and used frequently. If too much condensation is allowed to build up, the tank could rust or water dripping could cause home and electrical damage.
+
+SECTION 4: CLOSING
+Paragraph: If you are interested in discussing expansion tanks or notice your tank needs professional attention, give JBG a call — a timely repair can avoid future (and often, expensive) repairs.
+
+SECTION 5: CTA
+Heading: Need help? We're available 24/7.
+Text: Serving Brazos, Milam, Robertson and Grimes County.
+Buttons: "Request a Quote" → /quote-request/ · "(888) 512-4107" → tel:8885124107
+
+━━━━━━━━━━━━━━━━━━━━
+FINAL CHECK (confirm before finishing)
+━━━━━━━━━━━━━━━━━━━━
+1. The homepage is unchanged.
+2. All 5 sections above are present, in this order, with every paragraph word for word. No paragraph was dropped or shortened.
+3. The hero is exactly the same height as the About Us hero.
+4. The page is linked from its card on the Services page and from the Services dropdown in the header.
+5. You edited the same existing file.

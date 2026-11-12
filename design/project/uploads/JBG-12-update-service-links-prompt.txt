@@ -1,0 +1,56 @@
+Edit the SAME existing file. Do not create a new file, page or project.
+
+RULES
+- This prompt is ONLY allowed to change links and link labels in three places: the homepage "Our Plumbing Services" grid, the Services page "We Also Handle" cards, and the header "Services" dropdown. Change nothing else on any page: no text, layout, colors or images.
+- Run this only after the 5 new pages (Water Heaters, Sewer Drain & Septic, Leak Detection & Pipe Repair, Water Pressure & Filtration, Toilets & Faucets) exist.
+
+━━━━━━━━━━━━━━━━━━━━
+1. HOMEPAGE "Our Plumbing Services" GRID (keep all 16 cards in the same order)
+━━━━━━━━━━━━━━━━━━━━
+Every card's link label becomes "Learn more →". Links:
+1. Water Heater Installation Repair → /services/water-heaters/#water-heater-installation-repair
+2. Sewer Line Cleaning Repair → /services/sewer-drain-septic/#sewer-line-cleaning-repair
+3. Leak Detection → /services/leak-detection-pipe-repair/#leak-detection
+4. Septic Tank Cleaning → /services/sewer-drain-septic/#septic-tank-cleaning
+5. Grease Trap Cleaning → /commercial-plumber-services/grease-trap-cleaning/ (no change)
+6. Slab Leak Repair → /services/leak-detection-pipe-repair/#slab-leak-repair
+7. Backflow Testing → /commercial-plumber-services/backflow-testing-college-station-tx-bryan/ (no change)
+8. Expansion Tank Installation → /expansion-tank/ (no change)
+9. Sump Pump Well Pump Repair → /commercial-plumber-services/sump-pump-repair-college-station-tx-bryan/ (no change)
+10. Waterline Replacement Repair → /services/leak-detection-pipe-repair/#waterline-replacement-repair
+11. Water Pipe Repair Replacement → /services/leak-detection-pipe-repair/#water-pipe-repair-replacement
+12. Water Pressure Repair → /services/water-pressure-filtration/#water-pressure-repair
+13. Water Filter Installation → /services/water-pressure-filtration/#water-filter-installation
+14. Toilet Installation Repair → /services/toilets-faucets/#toilet-installation-repair
+15. Faucet Installation → /services/toilets-faucets/#faucet-installation
+16. Video Inspection Services → /services/sewer-drain-septic/#video-inspection-services
+
+━━━━━━━━━━━━━━━━━━━━
+2. SERVICES PAGE "We Also Handle" CARDS (/commercial-plumber-services/)
+━━━━━━━━━━━━━━━━━━━━
+Use the same 12 links as above for the matching cards, and change every "Get a quote →" label to "Learn more →".
+
+━━━━━━━━━━━━━━━━━━━━
+3. HEADER "Services" DROPDOWN (every page)
+━━━━━━━━━━━━━━━━━━━━
+Replace the dropdown with these 11 links, in this order:
+Water Heaters → /services/water-heaters/
+Sewer, Drain & Septic → /services/sewer-drain-septic/
+Leak Detection & Pipe Repair → /services/leak-detection-pipe-repair/
+Water Pressure & Filtration → /services/water-pressure-filtration/
+Toilets & Faucets → /services/toilets-faucets/
+Grease Trap Cleaning → /commercial-plumber-services/grease-trap-cleaning/
+Backflow Testing → /commercial-plumber-services/backflow-testing-college-station-tx-bryan/
+Expansion Tank → /expansion-tank/
+Sump Pump Repair → /commercial-plumber-services/sump-pump-repair-college-station-tx-bryan/
+Commercial Boilers → /commercial-plumber-services/boiler-installation/
+Gas Line Installation → /commercial-plumber-services/gas-line-installation/
+On desktop, show the dropdown in two columns with these labels: RESIDENTIAL (first 5) and COMMERCIAL & SPECIALTY (last 6).
+
+━━━━━━━━━━━━━━━━━━━━
+FINAL CHECK (confirm before finishing)
+━━━━━━━━━━━━━━━━━━━━
+1. Only links and link labels changed: no other text, layout or image on the homepage or anywhere else.
+2. All 16 homepage cards say "Learn more →" and open the right page and section.
+3. No card or menu item links to "#" or to /quote-request/ anymore.
+4. You edited the same existing file.

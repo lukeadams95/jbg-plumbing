@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { PAGE_PATH, type PageKey } from '../data/vals';
+import { PAGE_COMPONENTS } from '../components/generated/pages/index';
+
+export function getStaticPaths() {
+  return (Object.entries(PAGE_PATH) as [PageKey, string][]).map(([page, path]) => ({
+    params: { slug: path === '/' ? undefined : path.replace(/^\/|\/$/g, '') },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props as { page: PageKey };
+const Page = PAGE_COMPONENTS[page];
+---
+<Layout page={page}>
+  <Page page={page} />
+</Layout>

@@ -1,0 +1,47 @@
+Edit the SAME existing file. Do not create a new file, page or project.
+
+RULES
+- Do NOT touch the homepage in any way.
+- Design: you handle the design. Match the existing site design system, the About Us page and the Services page.
+- Content: use ONLY the content below, word for word and section for section. Do not add, remove, shorten or reword anything. Every heading and paragraph below must appear.
+- Hero height: use exactly the same hero height as the About Us page.
+- No breadcrumbs.
+- The SECTION labels below are for your reference only. Only lines marked "Heading:" appear as headings on the page.
+- Use the same header and footer as the homepage, with "Services" shown as the active nav item.
+
+━━━━━━━━━━━━━━━━━━━━
+NEW PAGE: Backflow Testing (/commercial-plumber-services/backflow-testing-college-station-tx-bryan/)
+━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1: HERO
+Heading: Backflow Testing
+Subheading: Backflow Installation & Testing
+Background image: https://i0.wp.com/jbgplumbingtx.com/wp-content/uploads/2016/11/backflow-testing-Collage-header-1500x430.jpg
+
+SECTION 2: BACKFLOW TESTING COLLEGE STATION (two columns: text + image)
+Heading: Backflow Testing College Station
+Paragraph 1: It is really difficult to miss a backflow plumbing problem.
+Paragraph 2: If your plumbing's water is not draining, or worse — flowing in the opposite direction, then you've got a backflow problem. And this sort of issue isn't just an inconvenience — it can pose a serious health risk. For instance, it can result in toxic water contaminating your safe drinking water.
+Paragraph 3: Backflow problems can encourage bacteria growth and noxious odors.
+Image: https://i0.wp.com/jbgplumbingtx.com/wp-content/uploads/2016/11/backflow-testing-college-station-495x400.jpg
+
+SECTION 3: HOW BACKFLOW HAPPENS
+Paragraph: There are two ways that backflow can happen: back pressure and back siphonage. When the pressure in the system is increased above the pressure in its supply, back pressure can cause a backflow of water. Alternatively, back siphonage occurs when the pressure in the water supply is lowered below the pressure in the system. Keeping an eye on changes in the water pressure of your home appliances can help identify backflow problems.
+
+SECTION 4: WE HANDLE IT
+Paragraph 1: JBG handles these sorts of emergencies every day. We know the signs and the best way to remedy problems. There are a variety of ways to solve these problems and we will quickly recommend the best approach given the unique requirements of your home or commercial space.
+Paragraph 2: A backflow issue should not be ignored. Avoid significant damage by giving JBG a call when you first notice a problem on your property.
+
+SECTION 5: CTA
+Heading: Need help? We're available 24/7.
+Text: Serving Brazos, Milam, Robertson and Grimes County.
+Buttons: "Request a Quote" → /quote-request/ · "(888) 512-4107" → tel:8885124107
+
+━━━━━━━━━━━━━━━━━━━━
+FINAL CHECK (confirm before finishing)
+━━━━━━━━━━━━━━━━━━━━
+1. The homepage is unchanged.
+2. All 5 sections above are present, in this order, with every paragraph word for word. No paragraph was dropped or shortened.
+3. The hero is exactly the same height as the About Us hero.
+4. The page is linked from its card on the Services page and from the Services dropdown in the header.
+5. You edited the same existing file.

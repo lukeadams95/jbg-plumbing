@@ -1,0 +1,76 @@
+Edit the SAME existing file. Do not create a new file, page or project.
+
+RULES
+- Do NOT touch the homepage in any way.
+- Design: you handle the design. Match the existing site design system, the About Us page and the Services page.
+- Content: use ONLY the content below, word for word and section for section. Do not add, remove, shorten or reword anything. Every heading and paragraph below must appear.
+- Hero height: use exactly the same hero height as the About Us page.
+- No breadcrumbs.
+- The SECTION labels below are for your reference only. Only lines marked "Heading:" appear as headings on the page.
+- Use the same header and footer as the homepage, with "Services" shown as the active nav item.
+
+━━━━━━━━━━━━━━━━━━━━
+NEW PAGE: Commercial Boilers (/commercial-plumber-services/boiler-installation/)
+━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1: HERO
+Heading: Commercial Boiler Installation & Repair
+Background image: https://i0.wp.com/jbgplumbingtx.com/wp-content/uploads/2017/10/Broiler-Installation-Repair-1500x430.jpg
+
+SECTION 2: INTRO
+Paragraph: At JBG Plumbing, we understand how much you've invested in your commercial project and how much the project means to you. We also understand how important a well-functioning boiler is to the daily operations of your business. At JBG, we will work to provide quality servicing, maintenance, and installation of your new commercial boiler.
+
+SECTION 3: MORE THAN JUST PLUMBING
+Heading: At JBG Plumbing, We Are More Than Just Plumbing
+Paragraph 1: We are a family-owned plumbing company that has been working in the Brazos Valley for more than 35 years. Our business has expanded to work in most major Texas cities, including College Station, Houston, Austin, Dallas, and San Antonio. We pride ourselves on the fact that we've watched the community develop over the years.
+Paragraph 2: When working with us, you're working with more than plumbers. You're working with expert contractors who can be trusted to complete your commercial boiler installation. You're working with a company who wants to develop a professional friendship that will last for years to come.
+Paragraph 3: When you call us, you can rest assured that you're hiring a team of dedicated professionals that includes licensed contractors and expert technicians. Our reputation speaks for itself with other commercial property owners in the area. JBG means something special, and we work hard to ensure no one forgets that when working on your project.
+
+SECTION 4: INSTALLING A BOILER WITH US
+Heading: Installing a Boiler with Us
+Paragraph 1: Our experts will make sure they fully understand the scope of your project before continuing with the installation. If you are looking to install a new commercial boiler, we will take time to understand what you're hoping to get out of the project. We will also take time to evaluate your existing system.
+Paragraph 2: Evaluating your existing system can help determine where deficiencies occur, and what areas could use improvement. Our team will also evaluate your existing infrastructure and provide you with detailed recommendations for the project. Our professionals will work with you to provide the functions you're looking for.
+Paragraph 3: We will also take the time to understand your financial limitations for the project. We'll work hard to find a commercial boiler project that fits into your company's budget while providing a system that is not only effective now but will continue to be in the future. Planning for the future is a cost-effective way to ensure you meet anticipated business needs and expected increases in demand.
+Paragraph 4: Because our team is comprised of experts, we'll be able to complete all aspects of the installation without having to outsource to third-party contractors. If you have an existing boiler that needs replacing, we will be able to complete the entire project. This is important, as you'll be working with the same contractors for the duration of the project, and will know the exact service you're getting along the way.
+
+SECTION 5: TYPES OF BOILER WORK (intro line + 3 cards)
+Intro: If you are considering working on an existing commercial boiler, you should understand the scope of the project. Work that you can have done includes
+Card 1: Commercial Boiler Replacement · where you replace an existing boiler system
+Card 2: Boiler System Installation · where you install a new heating system in an area that did not have one before
+Card 3: Boiler System Retrofit · where you change the type of heating system you use.
+
+SECTION 6: AVOID COSTLY REPAIRS
+Heading: Avoid Costly Repairs
+Paragraph 1: At JBG Plumbing, we understand that the time your business is open and operating is extremely valuable. That's why we invest the time and resources to completing your project the correct way the first time. If your business is closed, you're not able to make money, which is why we put effort and dedication into every project we complete. With lots of commercial boiler choices you need someone who can see the big picture.
+Paragraph 2: Our team is a close-knit family of Texans. We care about the community and want to see your business thrive, which is one of the reasons we've gained such notoriety and recognition across Texas over the past three decades. We'll install your commercial boiler with care so that it runs efficiently for years to come.
+Paragraph 3: If you have a previously-installed boiler that has stopped operating correctly, our team can quickly run a diagnostic check to evaluate the situation. Again, we understand how vital a commercial boiler is to the day-to-day operations of your business.
+Paragraph 4: Once identifying the problem, we will either recommend a series of repairs or the installation of a new commercial boiler. Our recommendation will promote the reliability and longevity of your system while taking into account other factors, such as the length of time your business may need to be closed to perform the repairs or installation.
+Paragraph 5: We subscribe to the belief that if the repair costs are 50% or more of the cost of a new system, it's better to have a new commercial boiler installed. Those repairs will continue to add up over the next few years, eventually making your commercial boiler a sunk cost that wastes money.
+Paragraph 6: The best way to ensure that your commercial boiler stays operating is by having routine repairs performed. It's to be expected that your commercial boiler will wear down over time, especially if an older model is currently installed. Having routine repairs performed could be a more cost-effective way to keep your unit up and running, as you'll potentially avoid having to install an entirely new system.
+
+SECTION 7: BRANDS THAT TRUST US
+Intro: Your commercial boiler installation is just as important to us as it is you. At JBG, we offer more than plumbing services. Several businesses in the area have trusted us over the years, including:
+List (show as a grid of brand tiles, name + description):
+- Hopdoddy Burger Bar, a Texas-based restaurant that delivers burgers made of fresh, all-natural ingredients.
+- Nothing Bundt Cakes, an expanding bakery chain.
+- Kirkland's, a retail chain that sells home décor and specializes in furnishings.
+- IHOP, a restaurant chain that specializes in breakfast foods
+- European Wax Center, a major chain of hair removal salons in the United States
+- Foot Locker, one of the top Woolworth Company brands
+- Texas Road House, a chain restaurant that specializes in steaks and promotes a Western theme
+- Gold's Gym, an American chain of international co-ed fitness centers
+Closing paragraph: We focus on providing performance, value, and personal attention to each commercial boiler installation project. We are flexible and can promptly complete a project within your financial requirements. Our commercial worksites are well-organized and highly efficient, making us the most attractive contractor in Texas.
+
+SECTION 8: CTA
+Heading: Need help? We're available 24/7.
+Text: Serving Brazos, Milam, Robertson and Grimes County.
+Buttons: "Request a Quote" → /quote-request/ · "(888) 512-4107" → tel:8885124107
+
+━━━━━━━━━━━━━━━━━━━━
+FINAL CHECK (confirm before finishing)
+━━━━━━━━━━━━━━━━━━━━
+1. The homepage is unchanged.
+2. All 8 sections above are present, in this order, with every paragraph word for word. No paragraph was dropped or shortened.
+3. The hero is exactly the same height as the About Us hero.
+4. The page is linked from its card on the Services page and from the Services dropdown in the header.
+5. You edited the same existing file.

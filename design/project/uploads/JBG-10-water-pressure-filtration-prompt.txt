@@ -1,0 +1,55 @@
+Edit the SAME existing file. Do not create a new file, page or project.
+
+RULES
+- Do NOT touch the homepage in any way.
+- Design: you handle the design. Match the existing site design system, the About Us page and the other service pages.
+- Content: use ONLY the content below, word for word and section for section. Do not add, remove, shorten or reword anything. Every heading and paragraph below must appear.
+- Hero height: use exactly the same hero height as the About Us page.
+- No breadcrumbs.
+- The SECTION labels below are for your reference only. Only lines marked "Heading:" or "Subheading:" appear as headings on the page.
+- Give each section the anchor id listed, so links like /page/#anchor-id scroll straight to it (offset for the sticky header).
+- Use the same header and footer as the homepage, with "Services" shown as the active nav item.
+
+━━━━━━━━━━━━━━━━━━━━
+NEW PAGE: Water Pressure & Filtration (/services/water-pressure-filtration/)
+━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1: HERO
+Heading: Water Pressure & Filtration
+Subheading: Water Pressure Repair · Water Filter Installation
+Background image: https://i0.wp.com/jbgplumbingtx.com/wp-content/uploads/2017/12/Team-banner50-1-1500x630.jpg
+
+SECTION 2: JUMP LINKS
+A row of 2 buttons that scroll to each section below: Water Pressure Repair · Water Filter Installation
+
+SECTION 3: WATER PRESSURE REPAIR (anchor id: water-pressure-repair)
+Heading: Water Pressure Repair
+Paragraph 1: Low water pressure is more than annoyance — it is often a sign that something else is wrong: it might be a minor adjustment or it may be evidence of significant pipe damage. Only an experienced plumber will be able to diagnose the problem with any certainty. If you have a persistent low water pressure issue at your house, it's worth a call to get it checked out.
+3 cause cards:
+Card 1 · Corrosion: Corrosion happens to older (pre-PVC) pipes and it can slow down water flow. The particles and flakes from the pipes themselves can easily collect in the pipe joints. Over time, corrosion will eventually lead to small openings in the pipes themselves.
+Card 2 · Leaking: This can lead to the second issue: leaking. A small hole will absolutely affect the water pressure in the line.
+Card 3 · Mineral Deposits: Lastly, mineral deposits – even dirt from the water main – form in pipes year by year. Calcium and magnesium deposits will restrict water flow. This usually takes quite a bit of time to accumulate, but if the timeline stretches far enough — you will notice the drop in pressure.
+Paragraph 2: A skilled plumber can solve this problem and JBG tackles this sort of problem every day. Remember, you don't have to put up with low water pressure and we are only a phone call away.
+Link: "Think you have a leak? See our leak detection tip →" → /services/leak-detection-pipe-repair/#leak-detection
+
+SECTION 4: WATER FILTER INSTALLATION (anchor id: water-filter-installation)
+Heading: Water Filter Installation College Station
+Paragraph 1: Lugging heavy jugs of filtered (RO — reverse osmosis) water from the store to the car and from the car into the house can be quite tedious — fortunately, it can also be part of your past.
+Paragraph 2: Imagine getting the best-purified water right at the kitchen sink. The water line to your fridge usually passes through a charcoal filter, but RO filtered water is an enormous improvement in both taste and improved filtration.
+Paragraph 3: Beyond improved drinking water, RO water improves water used for cooking, cleaning, and indoor plants. When you want water free of lead and microbial organisms, an RO system is an excellent choice. For example, filtration systems remove chlorine, bacteria, rust and dirt from entering your water supply, or vaporizing into the atmosphere. These pollutants won't ever come into contact with your lungs, clothes, or mouth.
+Paragraph 4: Reverse osmosis is an environmentally-friendly and cost-saving distillation alternative. The filtration process uses salination and pressure to decontaminate the water supply for your home. JBG can discuss your water filtration needs and offer specific recommendations when you call us at (888) 512-4107.
+(Make "(888) 512-4107" a tel:8885124107 link.)
+
+SECTION 5: CTA
+Heading: Need help? We're available 24/7.
+Text: Serving Brazos, Milam, Robertson and Grimes County.
+Buttons: "Request a Quote" → /quote-request/ · "(888) 512-4107" → tel:8885124107
+
+━━━━━━━━━━━━━━━━━━━━
+FINAL CHECK (confirm before finishing)
+━━━━━━━━━━━━━━━━━━━━
+1. The homepage is unchanged.
+2. All 5 sections above are present, in this order, with every paragraph, list item and card word for word. Nothing was dropped or shortened.
+3. Every section has its anchor id, and the jump links scroll to the right section.
+4. The hero is exactly the same height as the About Us hero.
+5. You edited the same existing file.

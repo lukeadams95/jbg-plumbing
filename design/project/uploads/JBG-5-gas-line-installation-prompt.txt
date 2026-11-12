@@ -1,0 +1,80 @@
+Edit the SAME existing file. Do not create a new file, page or project.
+
+RULES
+- Do NOT touch the homepage in any way.
+- Design: you handle the design. Match the existing site design system, the About Us page and the Services page.
+- Content: use ONLY the content below, word for word and section for section. Do not add, remove, shorten or reword anything. Every heading and paragraph below must appear.
+- Hero height: use exactly the same hero height as the About Us page.
+- No breadcrumbs.
+- The SECTION labels below are for your reference only. Only lines marked "Heading:" appear as headings on the page.
+- Use the same header and footer as the homepage, with "Services" shown as the active nav item.
+
+━━━━━━━━━━━━━━━━━━━━
+NEW PAGE: Gas Line Installation (/commercial-plumber-services/gas-line-installation/)
+━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1: HERO
+Heading: Gas Line Installation & Repair
+Background image: https://i0.wp.com/jbgplumbingtx.com/wp-content/uploads/2017/11/Gas-Line-Installation-Repair-1500x630.jpg
+
+SECTION 2: GAS LINE INSTALLATION
+Heading: Gas Line Installation
+Paragraph 1: Gas lines are one of the more serious parts of your commercial project. If the project is not completed properly, it could jeopardize the health of your customers and employees. A gas line that fails will cost you time and money. Fortunately, at JBG Plumbing we understand how important commercial gas line installation is.
+Paragraph 2: Our team of professionals at JBG Plumbing understand how much you've invested in this project and how much the project means to you.
+
+SECTION 3: MORE THAN JUST PLUMBING
+Heading: At JBG Plumbing, We Are More Than Just Plumbing
+Paragraph 1: We are a family-owned plumbing company that has been working in the Brazos Valley for more than 35 years. Our company has grown to work in most major Texas cities, including College Station, Houston, Austin, Dallas, and San Antonio. We pride ourselves on the fact that we've watched the community develop over the years.
+Paragraph 2: When working with us, you're working with more than plumbers. You're working with expert contractors who can be trusted to complete your commercial gas line installation. You're working with a company who wants to develop a professional friendship that will last for years to come.
+Paragraph 3: When you call us, you can rest assured that you're hiring a team of dedicated professionals that includes licensed contractors and expert technicians. Our reputation speaks for itself with other commercial property owners in the area. JBG means something special, and we work hard to ensure no one forgets that when working on your project.
+
+SECTION 4: ASSESSING ALL ASPECTS OF YOUR PROJECT
+Heading: Assessing All Aspects of Your Project
+Paragraph 1: Our experts will make sure they fully understand the scope of your project before continuing with the installation. Gas pipe sizes directly impact the inlet pressure that's available, so it's important to understand the utilities you intend to use and the expected capacity needed to operate your gas distribution system.
+Paragraph 2: Once our team understands your appliance needs, we will determine the correct allowable pressure drop. The allowable pressure drop ensures the delivery of the proper amount of gas, in cubic feet per hour. When the correct allowable pressure drop is determined, your appliances will operate under a full load.
+Paragraph 3: Operating under a full load helps ensure that your gas distribution system is working as intended while maximizing efficiency. You save money, and your appliances operate properly when they operate under a full load. It's important that you provide an accurate description of all appliances that will connect to your gas distribution system.
+
+SECTION 5: UNDERSTANDING YOUR FINANCIAL NEEDS
+Heading: Understanding Your Financial Needs
+Paragraph 1: At JBG Plumbing, we will work with you to come up with the best gas line installation for your budget. We will design a system that is not only effective now but will continue to be in the future. This cost-effective system will be able to meet future business needs and increased demand, all while staying within your budget.
+Paragraph 2: You'll quickly recuperate upfront gas line costs when working with our team. We maximize efficiency and make sure that your gas distribution system is working to its full capacity.
+Paragraph 3: At JBG, we will also reduce your long-term costs by helping you avoid costly repairs. If a gas line breaks down the road, you will not only have to pay money to have it fixed, but you'll also likely have to shut down your business. Every minute that your business is not open results in lost income.
+Paragraph 4: Choosing our team of trusted professionals will reduce your chance of costly future repairs. We treat our customers like family, which is why we've gained such notoriety and recognition across Texas over the past three decades. Hiring us ensures that your project will be completed the right way the first time.
+
+SECTION 6: WE CAN HELP WITH ALL GAS LINE INSTALLATION PROJECTS
+Heading: We Can Help with All Gas Line Installation Projects
+Paragraph 1: Whether you are constructing a brand-new building and have flexibility with your gas installation project or are in dire need of repair, the team at JBG Plumbing will complete the project the right way. No project is too big or too small. Our company appreciates you trusting us with your business, and will not stop working until you are satisfied with your gas installation project.
+Paragraph 2: If you are interested in a gas line repair or upgrading your existing gas distribution system, there are a few things you'll need to provide, including
+Checklist (4 items, show as a numbered checklist):
+1. The Gas Load – To have a better understanding of your system, we will need to know the connected gas load and the pressure required at the meter outlet.
+2. The Gas Service Line – You'll need to have copies of a scaled utility site plan that identifies the footprint of the building and the location of your utilities.
+3. The Desired Place for Your New Gas Meter – We can relocate your meter if you'd like.
+4. Building Permits – We will have to obtain permits before working on your new gas distribution system. Having your existing permits can help streamline this process.
+Paragraph 3: We will then come up with a design that fits into your existing structure. If possible, we will avoid additional costs, such as building reconstruction. It's important to note that the new system will have to clear engineer approval. Load requirements determine whether engineer approval is granted.
+
+SECTION 7: BRANDS THAT TRUST US
+Intro: Your commercial gas line installation is just as important to us as it is you. At JBG, we offer more than plumbing services. Several businesses in the area have trusted us over the years, including:
+List (show as a grid of brand tiles, name + description, same style as the Commercial Boilers page):
+- Hopdoddy Burger Bar, a Texas-based restaurant that delivers burgers made of fresh, all-natural ingredients.
+- Nothing Bundt Cakes, an expanding bakery chain.
+- Kirkland's, a retail chain that sells home décor and specializes in furnishings.
+- IHOP, a restaurant chain that specializes in breakfast foods
+- European Wax Center, a major chain of hair removal salons in the United States
+- Foot Locker, one of the top Woolworth Company brands
+- Texas Road House, a chain restaurant that specializes in steaks and promotes a Western theme
+- Gold's Gym, an American chain of international co-ed fitness centers
+Closing paragraph: We focus on providing performance, value, and personal attention to each commercial gas line installation project. We are flexible and can promptly complete a project within your financial requirements. Our commercial worksites are well-organized and highly efficient, making us the most attractive contractor in Texas.
+
+SECTION 8: CTA
+Heading: Need help? We're available 24/7.
+Text: Serving Brazos, Milam, Robertson and Grimes County.
+Buttons: "Request a Quote" → /quote-request/ · "(888) 512-4107" → tel:8885124107
+
+━━━━━━━━━━━━━━━━━━━━
+FINAL CHECK (confirm before finishing)
+━━━━━━━━━━━━━━━━━━━━
+1. The homepage is unchanged.
+2. All 8 sections above are present, in this order, with every paragraph word for word. No paragraph was dropped or shortened.
+3. The hero is exactly the same height as the About Us hero.
+4. The page is linked from its card on the Services page and from the Services dropdown in the header.
+5. You edited the same existing file.

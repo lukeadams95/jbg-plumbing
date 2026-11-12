@@ -1,0 +1,95 @@
+Edit the SAME existing file. Do not create a new file, page or project.
+
+RULES
+- Do NOT touch the homepage in any way.
+- Design: you handle the design. Match the existing site design system, the About Us page and the other service pages.
+- Content: use ONLY the content below, word for word and section for section. Do not add, remove, shorten or reword anything. Every heading and paragraph below must appear.
+- Hero height: use exactly the same hero height as the About Us page.
+- No breadcrumbs.
+- The SECTION labels below are for your reference only. Only lines marked "Heading:" or "Subheading:" appear as headings on the page.
+- Give each section the anchor id listed, so links like /page/#anchor-id scroll straight to it (offset for the sticky header).
+- Use the same header and footer as the homepage, with "Services" shown as the active nav item.
+
+━━━━━━━━━━━━━━━━━━━━
+NEW PAGE: Sewer, Drain & Septic (/services/sewer-drain-septic/)
+━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1: HERO
+Heading: Sewer, Drain & Septic
+Subheading: Sewer Line Repair · Septic Tank Cleaning · Video Pipe Inspection
+Background image: https://i0.wp.com/jbgplumbingtx.com/wp-content/uploads/2017/12/Team-banner50-1-1500x630.jpg
+
+SECTION 2: JUMP LINKS
+A row of 3 buttons that scroll to each section below: Sewer Line Repair · Septic Tank Cleaning · Video Pipe Inspection
+
+SECTION 3: SEWER LINE REPAIR (anchor id: sewer-line-cleaning-repair)
+Heading: Sewer Line Repair College Station
+Paragraph 1: A properly functioning sewer system is a non-negotiable. Unfortunately, old sewer lines have a limited lifespan — old clay pipes/iron pipes and orangeburg fiber pipes fail over time. PVC pipes are estimated to last 400 years if they aren't broken by impact or exposed to UV rays (sunlight makes the plastic brittle).
+Paragraph 2: Blockage or buildup of any kind can easily lead to severe health risk and property damage. Roots from trees or corrosion are often the biggest sewer line problems. Any number of things can obstruct drain flow.
+Paragraph 3: We guarantee that JBG will be able to identify the primary cause of the sewer line blockage and we won't leave until we offer a recommendation that will solve your issue. There's no use in merely "patching" a problem or making a situation slightly better than when we first arrived — unless we tackle the underlying problem, you'll have the same issue a few months later. JBG won't stop until we've found the cause of the blockage and explain how we can create a long-term solution for your drainage problem. Give us a call when you notice you have any drainage issues.
+
+Subheading: Four Signs You Might Have a Sewer Problem (4 numbered cards)
+1. Your toilets won't flush or pipes don't drain. This is the most obvious indicator that something has gone terribly wrong and that you need a professional on the scene as quickly as possible. Wastewater that backflows can do serious property damage and cause health issues. You need this solved quickly.
+2. Your yard becomes a bog. If your pets enter the house with muddy feet when it hasn't rained and you haven't run a sprinkler system — pay attention and investigate. Standing water is a good indicator that you may have broken sewer lines.
+3. You smell a nasty odor on your property. Sewer lines don't smell very good and you might detect vapors on your property before you can see them.
+4. Noticeably greener patches of the lawn during harsh summer months may mean the lawn is getting watered without your knowledge. A broken sewer line might "water" the lawn without your being aware. Your grass will love it, but you have a problem that JBG solves every day.
+
+Subheading: Sewer Line Repair, Replacement, and Cleaning Services
+Paragraph: We do quite a bit more than unclog piping and sewer lines. We offer an entire range of sewer services: including but not limited to main sewer line repair, full sewer line replacement, and sewer line cleaning. It is vital for homeowners to get the right help to repair or replace their sewer lines as soon as possible to avoid long-term damage. Our sewer line repair professionals are trained to address a number of sewer plumbing problems, including:
+List:
+- Bellied pipes. A section of a pipe or multiple pipes has sunk due to ground or soil conditions, creating a valley that collects debris and waste.
+- Leaking joints. The seal that is used in between pipes may have decayed or broken down, which allows water to escape into the ground area around the pipes.
+- Tree root interference. Tree roots or shrubbery may have dipped into the sewer line through cracks or pressure, which would cause clogs and prevent common sewer line cleaning.
+- Off-grade piping. Established pipes, especially in older towns, may be constructed of degrading or outdated materials that have begun to corrode.
+- Damaged pipes. Pipes can be cracked, punctured or caved in by moving soil, frozen ground, new home settling, and other factors.
+- Sewer blockages. Grease and dirt buildup, as well as foreign objects, tend to restrict or entirely block proper water flow in a sewer line.
+Paragraph: All of these possible sewer problems can be prevented by calling in our team of expert plumbers for a maintenance check. If problems are caught quickly, it can greatly reduce the costly outcome of a total sewer line replacement or repair. Our sewer technicians are available now to help with all of your sewer line plumbing needs, whether you have a sewer leak, need intensive sewer repair, or whole sewer replacement.
+
+Subheading: Tree Roots and Sewer Lines
+Paragraph 1: First, your sewer line can be made of cast iron, clay, or Orangeburg.
+Paragraph 2: The thought of destroying your driveway or uprooting your lawn to repair your sewer line might unnerve you. We know. It's the last thing you want to consider. But if you have sewer line damage, there may not be a way around it.
+Paragraph 3: A common cause of sewer line failure is thirsty tree roots. Sewer pipes and roots share the same space underground in both front and back yards, and over time they can become intertwined. Smaller roots searching out water sources will actually penetrate the line over time. You can consult with a tree doctor who can tell you if your particular type of tree is prone to deep roots (Post Oak) or stays above the foundation line (Live Oak) for example.
+Paragraph 4: To access failed sewer lines, we must unearth the source and make repairs. When the tree roots are finally in view, that's when we must make determinations about the best way to solve the problem. Conditions vary and we have developed workarounds, but we can't really make that decision until we see the condition of the line and root system itself.
+Paragraph 5: Manually cutting the roots that are infringing upon your sewer lines is a short-term solution. Once cut, the roots will simply start over again, and multiply in fibers. A chemical or permanent uprooting process is a better long-term solution to a tree root and sewer line problem. We always hope to save root systems if possible and we defer to homeowners when decisions must be made. Give JBG a phone call when you encounter your next sewer line problem.
+
+Subheading: Signs That Your Sewer System May Need Servicing
+Paragraph: There are some signs that any homeowner can detect that could mean there is a need for drain or sewer maintenance services:
+Checklist (2 columns): Leaks · Excessive moisture · Strong or lingering odor · Strange pooling around pipes · Blockage or clogs · Loud noises coming from piping when in use · Water pressure problems
+Paragraph: While you can certainly do some prevention-based maintenance on your own, more technical maintenance and repairs will require the attention of a professional. That is where we come in. The outstanding team at JBG Plumbing in College Station, Texas is made up of knowledgeable and experienced plumbing experts with years of experience in the field. We are the professional plumbers to ring in when your home piping has problems!
+
+SECTION 4: SEPTIC TANK CLEANING (anchor id: septic-tank-cleaning)
+Heading: Keep Your Septic System Running Smoothly with JBG Plumbing's Professional Cleaning Services
+Subheading: Our septic cleaning services include: (5 numbered cards)
+1. Septic Tank Pumping: We will remove the solid waste accumulated in your septic tank. This is a crucial step in maintaining the health of your septic system.
+2. Septic Inspection: We will thoroughly inspect your septic tank and drain field to identify any potential issues that must be addressed. This includes checking for cracks, leaks, and clogs.
+3. Repair and Maintenance: If we find any issues during the inspection, we will provide the necessary repair and maintenance services to keep your septic system functioning properly.
+4. Drain Field Repair: If the drain field is not functioning correctly, we will repair or replace it to ensure your septic system can filter wastewater effectively.
+5. Preventive Maintenance: Besides our cleaning services, we also offer preventative maintenance services to ensure your septic system stays in top condition. This includes regular inspections and pump-outs to keep your system running smoothly.
+
+Subheading: Why Clean Your Septic System? Here are the Top 3 Reasons:
+1. Prevent Costly Repairs: Regular septic tank cleaning helps prevent expensive repairs and replacements in the long run. Neglecting to clean your septic system can lead to clogs, backups, and even system failure.
+2. Maintain a Healthy Environment: A poorly maintained septic system can pollute the environment, contaminating nearby water sources and posing a risk to public health. Keeping your septic system clean and well-maintained ensures a healthy environment for you and your community.
+3. Save Money on Utilities: An overloaded septic system can cause your utility bills to skyrocket. By cleaning your septic system regularly, you can reduce the water and electricity you use, saving you money in the long run.
+
+Callout box: According to the Texas Commission on Environmental Quality, it is recommended to clean septic systems every 3-5 years to maintain optimal performance and prevent potential health hazards. However, the pumping interval may vary depending on the size of the septic tank, the number of people using the system, and other factors.
+(Link "Texas Commission on Environmental Quality" → https://www.tceq.texas.gov/assistance/water/fyiossfs.html, opens in a new tab)
+Paragraph 1: JBG Plumbing offers comprehensive septic system cleaning services to keep your system running smoothly and efficiently. Our experienced professionals use the latest tools and techniques to ensure that your septic system is thoroughly cleaned and maintained.
+Paragraph 2: Don't wait until it's too late. Schedule a septic system cleaning with JBG Plumbing today to prevent costly repairs, maintain a healthy environment, and save money on utilities. Contact us today to learn more!
+
+SECTION 5: VIDEO PIPE INSPECTION (anchor id: video-inspection-services)
+Heading: Video Pipe Inspection College Station
+Paragraph: High resolution scoping cameras are an indispensable tool in the plumbing trade. We can use our cameras to locate clogs, identify the source of water leaks, inspect under foundations, and search out broken pipe fittings. JBG doesn't want to simply fix a compromised sewer line or partially remove a clogged line for slightly improved flow. You need to know the source of these problems and we must address the underlying cause. Our cameras make this process much easier and it helps us communicate with our customers: in most cases, you'll be able to see exactly the problem we see. The cameras take the guess work out of plumbing, and JBG customers appreciate being fully informed. Give us a call for permanent plumbing solutions!
+
+SECTION 6: CTA
+Heading: Need help? We're available 24/7.
+Text: Serving Brazos, Milam, Robertson and Grimes County.
+Buttons: "Request a Quote" → /quote-request/ · "(888) 512-4107" → tel:8885124107
+
+━━━━━━━━━━━━━━━━━━━━
+FINAL CHECK (confirm before finishing)
+━━━━━━━━━━━━━━━━━━━━
+1. The homepage is unchanged.
+2. All 6 sections above are present, in this order, with every paragraph, list item and card word for word. Nothing was dropped or shortened.
+3. Every section has its anchor id, and the jump links scroll to the right section.
+4. The hero is exactly the same height as the About Us hero.
+5. You edited the same existing file.

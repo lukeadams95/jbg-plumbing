@@ -1,0 +1,97 @@
+Edit the SAME existing file. Do not create a new file, page or project.
+
+RULES
+- Do NOT touch the homepage in any way.
+- Design: you handle the design. Match the existing site design system, the About Us page and the Services page.
+- Content: use ONLY the content below, word for word and section for section. Do not add, remove, shorten or reword anything. Every heading and paragraph below must appear.
+- Hero height: use exactly the same hero height as the About Us page.
+- No breadcrumbs.
+- The SECTION labels below are for your reference only. Only lines marked "Heading:" appear as headings on the page.
+- Use the same header and footer as the homepage, with "Services" shown as the active nav item.
+
+━━━━━━━━━━━━━━━━━━━━
+NEW PAGE: Sump Pump Repair (/commercial-plumber-services/sump-pump-repair-college-station-tx-bryan/)
+━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1: HERO
+Heading: Sump Pump Repair
+Subheading: Installation, Repairs & 24/7 Emergency Service
+Background image: https://i0.wp.com/jbgplumbingtx.com/wp-content/uploads/2017/12/Team-banner50-1-1500x630.jpg
+
+SECTION 2: JBG PLUMBING: SUMP PUMPS
+Heading: JBG Plumbing: Sump Pumps
+Paragraph 1: Not every home requires the use of a sump pump – but, for those that do, having one that properly works is essential.
+Paragraph 2: The most common home use of a sump pump is to prevent flooding. The pump moves water away from the foundation to a wastewater system and drain. Knowing this water is rerouted from underneath your home ensures peace of mind.
+Paragraph 3: If your home has poor natural drainage (the telltale sign is a basement that floods regularly), then JBG Plumbing can help.
+
+SECTION 3: SUMP PUMP INSTALLATION
+Heading: Sump Pump Installation
+Paragraph 1: At JBG Plumbing, our most common sump pump service is installation.
+Paragraph 2: Our expert team will visit your home, inspect your foundation and basement, and create the best sump pump installation plan for you.
+Paragraph 3: Don't have a basement? We install sump pumps in crawlspaces as well as basements to help you avoid expensive water damage to your home.
+Paragraph 4: Our skilled professionals find the lowest point in your basement or crawlspace for the pump. We offer several sump pump models, so you can find one that runs quietly, uses little energy, and is well within your budget.
+
+SECTION 4: SUMP PUMP REPAIRS AND MAINTENANCE
+Heading: Sump Pump Repairs and Maintenance
+Paragraph 1: Like any machine that works hard on a regular basis, a sump pump requires regular maintenance to stay in tiptop working condition.
+Paragraph 2: Let us at JBG Plumbing inspect your sump pump for you. Our regular maintenance routine involves cleaning out the device to ensure it works properly long into the future.
+Paragraph 3: During our regular maintenance routine, we also inspect the device for damage. Any damaged components are repaired or replaced.
+Paragraph 4: If you've never had your sump pump inspected, especially if you've had it for several years, a sump pump inspection is well worth the money.
+Paragraph 5: In addition to maintenance, we also offer sump pump repairs. If your pump breaks down, we can help you fix it right away.
+Paragraph 6: How can you tell if your sump pump is broken? The telltale sign is a basement or crawl space filled with water.
+
+SECTION 5: 24/7 EMERGENCY SERVICES (highlighted band)
+Heading: 24/7 Emergency Services
+Paragraph 1: A broken sump pump isn't as extreme an emergency as other issues – say, a leaking gas line – but it should be fixed promptly.
+Paragraph 2: Fail to fix your broken sump pump before the next big rain, and a flooded basement might be in your future.
+Paragraph 3: Luckily, JBG Plumbing offers 24/7 emergency services. If you notice your basement filling up with water due to a broken sump pump, our team can be at your door within hours to perform the necessary repairs.
+Button: "Call 24/7: (888) 512-4107" → tel:8885124107
+
+SECTION 6: WHEN TO REPLACE YOUR SUMP PUMP
+Heading: When to Replace Your Sump Pump
+Paragraph 1: A nice thing about sump pumps is that they're relatively simple devices.
+Paragraph 2: What this means for you is that it's easy to tell when they need to be repaired or replaced. There are a few main signs your sump pump needs to be looked at:
+3 cards:
+- Excessive Noise – If you notice your sump pump is much louder than normal, it might be clogged with debris or has a damaged part.
+- Power – If you know your sump pump is receiving power, but it's still not working, an electrical problem is likely.
+- Stopped Working – The most obvious sign your sump pump is broken, a pump that isn't getting any electricity and doesn't run likely has a burnt motor.
+Paragraph 3: Remember that repairing your sump pump by yourself might seem easy – but it's a fairly dangerous DIY project.
+Paragraph 4: Any project involving electricity should never be taken with a grain of salt. And that's especially so if it involves both electricity and water (like sump pump repair does).
+Paragraph 5: You're best off leaving such electrical repairs to the professionals.
+
+SECTION 7: TYPES OF SUMP PUMPS
+Heading: Types of Sump Pumps
+Paragraph 1: It's essential you select the right type of sump pump for your home.
+Paragraph 2: We can help you decide which is right for you. Though we carry countless models, the two main types of sump pumps are:
+2 cards side by side:
+- Pedestal Sump Pumps – The motor sits on top of a pedestal with a hose that extends into the reservoir.
+- Submersible Sump Pumps – The entire device, including the motor, extends into the reservoir.
+Paragraph 3: Both sump pumps work in much the same way: a float rises inside the pump as the water level under your home rises. Once it's at a certain level, the sump pump is triggered and pumps the water away from your home to a wastewater drain.
+Paragraph 4: Of course, there are pros and cons to each option. A pedestal sump pump is cheaper, but a submersible sump pump is necessary for situations with a lot of water.
+Paragraph 5: In addition, a pedestal sump pump tends to last longer, but can't move nearly as much water in as short a time period as a submersible sump pump.
+
+SECTION 8: HOW MUCH DOES A NEW SUMP PUMP COST?
+Heading: How Much Does a New Sump Pump Cost?
+Paragraph 1: If you're simply replacing a sump pump, the cost of installation will be low. All we'll likely have to do is replace the existing sump pump with the new one.
+Paragraph 2: Those that are getting a sump pump installed for the first time must pay more. We'll likely have to dig a reservoir and install drainage ourselves.
+Paragraph 3: Simply put, it's hard to estimate the cost of a new sump pump. The best way to get an accurate quote is to contact us at JBG Plumbing with the specifics of your project.
+
+SECTION 9: WHY CHOOSE JBG PLUMBING
+Heading: Why Choose JBG Plumbing
+Paragraph 1: JBG Plumbing treats each customer like a member of our own families.
+Paragraph 2: And like a member of our own families, we'll do everything we can to provide safe, efficient, and affordable sump pump installation and repair.
+Paragraph 3: It's our goal to leave you happy with the work we've done. We want you to feel confident that your new sump pump will work well to prevent flooding and keep your basement dry.
+
+SECTION 10: CTA
+Heading: Need help? We're available 24/7.
+Text: Serving Brazos, Milam, Robertson and Grimes County.
+Buttons: "Request a Quote" → /quote-request/ · "(888) 512-4107" → tel:8885124107
+
+━━━━━━━━━━━━━━━━━━━━
+FINAL CHECK (confirm before finishing)
+━━━━━━━━━━━━━━━━━━━━
+1. The homepage is unchanged.
+2. All 10 sections above are present, in this order, with every paragraph word for word. No paragraph was dropped or shortened.
+3. The hero is exactly the same height as the About Us hero.
+4. The page is linked from its card on the Services page and from the Services dropdown in the header.
+5. You edited the same existing file.

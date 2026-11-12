@@ -1,0 +1,21 @@
+{
+  "name": "jbg-plumbing-site",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "convert": "node tools/convert.mjs",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.18.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "domhandler": "^5.0.3",
+    "htmlparser2": "^10.0.0",
+    "typescript": "^5.8.3"
+  }
+}
