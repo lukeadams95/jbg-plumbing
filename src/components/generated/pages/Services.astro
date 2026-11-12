@@ -23,8 +23,8 @@ const V = vals(page);
       <p style="margin:0 0 18px;font-size:19px;line-height:1.7">As a business owner, the last thing you need to worry about is unreliable plumbing on your property. Office suites, new commercial build-out, restaurants — you'll see that JBG handles very large projects. We retrofit existing buildings, keep older systems operating as efficiently as possible, or help you think through plumbing needs as you start from scratch. Let us deal with the plumbing problems, and you can get back to tackling the most important thing: managing your company!</p>
       <p style="margin:0 0 30px;font-size:19px;line-height:1.7">From one business to another, JBG understands the need for getting the job done right the first time.</p>
       <div style="display:flex;flex-wrap:wrap;gap:14px">
-        <a class="h11" href="/quote-request/" style="background:#BD1E2D;color:#fff;padding:16px 28px;border-radius:4px;font-weight:800;font-size:16px">Request a Quote</a>
-        <a class="h11" href="tel:9797774420" style="background:#716558;color:#fff;padding:16px 28px;border-radius:4px;font-weight:800;font-size:16px">(979) 777-4420</a>
+        <a class="h12" href="/quote-request/" style="background:#BD1E2D;color:#fff;padding:16px 28px;border-radius:4px;font-weight:800;font-size:16px">Request a Quote</a>
+        <a class="h12" href="tel:9797774420" style="background:#716558;color:#fff;padding:16px 28px;border-radius:4px;font-weight:800;font-size:16px">(979) 777-4420</a>
         <a class="h9" href="/projects/" style="border:2px solid #716558;color:#716558;padding:14px 26px;border-radius:4px;font-weight:800;font-size:16px">View Recent Projects</a>
       </div>
     </div>
@@ -35,7 +35,7 @@ const V = vals(page);
   <div style="max-width:1240px;margin:0 auto">
     <div style="display:grid;grid-template-columns:var(--featCols);gap:18px">
       {V.featured.map((f) => (<Fragment>
-        <a class="h16" href={f.href} style="display:flex;align-items:center;gap:16px;background:#38322D;border:1px solid #4A423B;border-radius:6px;padding:22px;color:#fff;min-width:0" data-item="featured">
+        <a class="h17" href={f.href} style="display:flex;align-items:center;gap:16px;background:#38322D;border:1px solid #4A423B;border-radius:6px;padding:22px;color:#fff;min-width:0" data-item="featured">
           <span style="flex:0 0 64px;height:64px;border-radius:6px;background:#716558;display:flex;align-items:center;justify-content:center"><Fragment set:html={f.icon} /></span>
           <span style="display:flex;flex-direction:column;gap:6px;min-width:0"><span style="font-weight:700;font-size:20px;line-height:1.25">{f.label}</span><span style="align-self:flex-start;color:#fff;font-weight:700;font-size:15px;border-bottom:2px solid #BD1E2D;padding-bottom:2px">Learn more →</span></span>
         </a>
@@ -50,7 +50,7 @@ const V = vals(page);
       {V.alsoCards.map((s) => (<Fragment>
         <a href={s.href} style="display:flex;flex-direction:column;color:#2B2622;min-width:0" data-item="alsoCards">
           <div style="height:var(--svcImgH);border-radius:12px 12px 0 0;overflow:hidden;background:#E6E0DA;display:flex;align-items:center;justify-content:center">{s.hasImg && (<Fragment><img src={s.img} alt={s.label} style="width:100%;height:100%;object-fit:cover;display:block" /></Fragment>)}{s.noImg && (<Fragment><span style="opacity:.45;padding-bottom:30px"><Fragment set:html={s.iconBig} /></span></Fragment>)}</div>
-          <div class="h12" style="position:relative;flex:1;margin:var(--svcPull);background:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(43,38,34,.14);padding:var(--svcPad);text-align:center;display:flex;flex-direction:column;align-items:center;gap:var(--svcInner)">
+          <div class="h13" style="position:relative;flex:1;margin:var(--svcPull);background:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(43,38,34,.14);padding:var(--svcPad);text-align:center;display:flex;flex-direction:column;align-items:center;gap:var(--svcInner)">
             <span style="position:absolute;top:var(--svcIconTop);left:50%;margin-left:var(--svcIconTop);width:var(--svcIconBox);height:var(--svcIconBox);border-radius:8px;background:#716558;display:flex;align-items:center;justify-content:center"><Fragment set:html={s.iconW} /></span>
             <span style="font-weight:800;font-size:var(--svcName);line-height:1.25;flex:1;display:flex;align-items:center">{s.label}</span>
             <span style="color:#716558;font-weight:700;font-size:var(--svcCta);border-bottom:2px solid #BD1E2D;padding-bottom:2px">{s.cta}</span>

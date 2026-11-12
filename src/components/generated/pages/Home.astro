@@ -22,6 +22,8 @@ const V = vals(page);
         <a class="h10" href="/quote-request/" style="display:inline-flex;align-items:center;justify-content:center;gap:14px;flex:1 1 220px;background:#fff;color:#716558;padding:20px 30px;font-weight:800;font-size:17px;text-transform:uppercase;box-shadow:0 6px 18px rgba(43,38,34,.2)">→ Request a Quote</a>
         <a class="h5" href="tel:9797774420" style="flex:1 1 220px;text-align:center;border:2px solid #fff;color:#fff;padding:18px 28px;font-weight:700;font-size:17px">(979) 777-4420</a>
       </div>
+      <div style="height:1px;background:rgba(255,255,255,.22);max-width:520px;margin:34px 0 22px"></div>
+      <a class="h11" href="https://www.google.com/maps?cid=14838878191929429427" target="_blank" rel="noopener" aria-label="Rated 4.7 out of 5 from 558 Google reviews" style="display:inline-flex;align-items:center;flex-wrap:wrap;gap:10px 12px;color:#fff"><svg width="26" height="26" viewBox="0 0 48 48" style="flex:0 0 26px;display:block" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path></svg><span style="font-weight:900;font-size:20px;line-height:1;color:#fff">4.7</span><span style="color:#D9A441;font-size:18px;letter-spacing:2px;line-height:1">★★★★★</span><span style="font-weight:700;font-size:16px;color:rgba(255,255,255,.78)">from 558 Google reviews</span></a>
     </div>
     <div style="position:relative;min-width:0">
       <div style="background:#fff;border-radius:6px;border-top:6px solid #BD1E2D;box-shadow:0 18px 40px rgba(43,38,34,.45);padding:clamp(22px,2.6vw,34px);color:#3A3530;max-width:500px;margin-left:auto">
@@ -40,7 +42,7 @@ const V = vals(page);
             <label style="display:flex;flex-direction:column;gap:6px;font-weight:700;font-size:14px;color:#2B2622;text-align:left">Email<input required="" name="email" type="email" autocomplete="email" style="display:block;width:100%;box-sizing:border-box;padding:12px 14px;border:1.5px solid #E6E0DA;border-radius:4px;font:inherit;font-size:16px;color:#3A3530;background:#fff" /></label>
             <label style="display:flex;flex-direction:column;gap:6px;font-weight:700;font-size:14px;color:#2B2622;text-align:left">Phone<input required="" name="phone" type="tel" autocomplete="tel" style="display:block;width:100%;box-sizing:border-box;padding:12px 14px;border:1.5px solid #E6E0DA;border-radius:4px;font:inherit;font-size:16px;color:#3A3530;background:#fff" /></label>
             <label style="display:flex;flex-direction:column;gap:6px;font-weight:700;font-size:14px;color:#2B2622;text-align:left">Message<textarea name="message" rows="3" style="display:block;width:100%;box-sizing:border-box;padding:12px 14px;border:1.5px solid #E6E0DA;border-radius:4px;font:inherit;font-size:16px;color:#3A3530;background:#fff;resize:vertical"></textarea></label>
-            <button class="h11" type="submit" style="margin-top:4px;background:#BD1E2D;color:#fff;border:none;border-radius:4px;padding:15px;font:inherit;font-weight:800;font-size:16px;text-transform:uppercase;cursor:pointer">→ Get My Quote</button>
+            <button class="h12" type="submit" style="margin-top:4px;background:#BD1E2D;color:#fff;border:none;border-radius:4px;padding:15px;font:inherit;font-weight:800;font-size:16px;text-transform:uppercase;cursor:pointer">→ Get My Quote</button>
           </form>
         </div>
       </div>
@@ -88,7 +90,7 @@ const V = vals(page);
       {V.services.map((s) => (<Fragment>
         <a href={s.href} style="display:flex;flex-direction:column;color:#2B2622;min-width:0" data-item="services">
           <div style="height:var(--svcImgH);border-radius:12px 12px 0 0;overflow:hidden;background:#E6E0DA;display:flex;align-items:center;justify-content:center">{s.hasImg && (<Fragment><img src={s.img} alt={s.label} style="width:100%;height:100%;object-fit:cover;display:block" /></Fragment>)}{s.noImg && (<Fragment><span style="opacity:.45;padding-bottom:30px"><Fragment set:html={s.iconBig} /></span></Fragment>)}</div>
-          <div class="h12" style="position:relative;flex:1;margin:var(--svcPull);background:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(43,38,34,.14);padding:var(--svcPad);text-align:center;display:flex;flex-direction:column;align-items:center;gap:var(--svcInner)">
+          <div class="h13" style="position:relative;flex:1;margin:var(--svcPull);background:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(43,38,34,.14);padding:var(--svcPad);text-align:center;display:flex;flex-direction:column;align-items:center;gap:var(--svcInner)">
             <span style="position:absolute;top:var(--svcIconTop);left:50%;margin-left:var(--svcIconTop);width:var(--svcIconBox);height:var(--svcIconBox);border-radius:8px;background:#716558;display:flex;align-items:center;justify-content:center"><Fragment set:html={s.iconW} /></span>
             <span style="font-weight:800;font-size:var(--svcName);line-height:1.25;flex:1;display:flex;align-items:center">{s.label}</span>
             <span style="color:#716558;font-weight:700;font-size:var(--svcCta);border-bottom:2px solid #BD1E2D;padding-bottom:2px">{s.cta}</span>
@@ -128,7 +130,7 @@ const V = vals(page);
           </div>
           <div style="display:flex;align-items:center;gap:8px;margin:6px 0 14px"><span style="color:#FABB05;font-size:18px;letter-spacing:1px;line-height:1">★★★★★</span><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#716558" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block"><circle cx="12" cy="12" r="10"></circle><path d="M7.5 12.5l3 3 6-6.5"></path></svg></div>
           <div style="font-family:'Lato',sans-serif;font-weight:400;font-size:15px;line-height:1.65;color:#3A3530;white-space:pre-line" data-full={r.fullText} data-text>{r.shownText}</div>
-          {r.long && (<Fragment><button class="h13" data-act="rev-toggle" style="margin-top:10px;padding:0;border:none;background:none;cursor:pointer;font-family:'Lato',sans-serif;font-weight:700;font-size:14px;color:#716558" data-label>{r.toggleLabel}</button></Fragment>)}
+          {r.long && (<Fragment><button class="h14" data-act="rev-toggle" style="margin-top:10px;padding:0;border:none;background:none;cursor:pointer;font-family:'Lato',sans-serif;font-weight:700;font-size:14px;color:#716558" data-label>{r.toggleLabel}</button></Fragment>)}
         </div>
       </Fragment>))}
     </div>
@@ -137,7 +139,7 @@ const V = vals(page);
       {V.canLoadMore && (<Fragment>
         <button class="h7" data-act="more" data-list="visibleReviews" data-step={6} style="background:#716558;color:#fff;border:none;border-radius:4px;min-height:48px;padding:0 32px;font-family:'Lato',sans-serif;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.08em;cursor:pointer">LOAD MORE REVIEWS</button>
       </Fragment>)}
-      <a class="h13" href="/reviews/" style="color:#716558;font-family:'Lato',sans-serif;font-weight:700;font-size:15px">Read all reviews →</a>
+      <a class="h14" href="/reviews/" style="color:#716558;font-family:'Lato',sans-serif;font-weight:700;font-size:15px">Read all reviews →</a>
     </div>
   </div>
 </section>

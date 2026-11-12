@@ -9,13 +9,14 @@
 .h8:hover{color:#fff!important}
 .h9:hover{background:#716558!important;color:#fff!important}
 .h10:hover{background:#2B2622!important;color:#fff!important}
-.h11:hover{background:#2B2622!important}
-.h12:hover{box-shadow:0 14px 34px rgba(43,38,34,.24)!important}
-.h13:hover{color:#5A5046!important}
-.h14:hover{color:#BD1E2D!important}
-.h15:hover{color:#2B2622!important}
-.h16:hover{background:#443D37!important}
-.h17:hover{background:#E6E0DA!important}
-.h18:hover{background:#BD1E2D!important}
-.h19:hover{background:#716558!important}
+.h11:hover{opacity:.85!important}
+.h12:hover{background:#2B2622!important}
+.h13:hover{box-shadow:0 14px 34px rgba(43,38,34,.24)!important}
+.h14:hover{color:#5A5046!important}
+.h15:hover{color:#BD1E2D!important}
+.h16:hover{color:#2B2622!important}
+.h17:hover{background:#443D37!important}
+.h18:hover{background:#E6E0DA!important}
+.h19:hover{background:#BD1E2D!important}
+.h20:hover{background:#716558!important}
 .f1:focus{border-color:#716558!important}
