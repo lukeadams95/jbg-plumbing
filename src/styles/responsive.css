@@ -93,3 +93,6 @@
 @media (min-width: 900px) { .bp-cta-mob { display: none; } }
 
 .svc-icon-w { width: var(--svcIconSvg); height: var(--svcIconSvg); }
+
+/* 24/7 Emergency header button (links to the intake form). */
+header a[aria-label^="24/7 emergency"]:hover { background: #9E1824 !important; color: #fff !important; }

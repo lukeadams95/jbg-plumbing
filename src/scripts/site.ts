@@ -17,7 +17,8 @@ $$('[data-act="menu"]').forEach((b) => {
 });
 
 // --- Homepage: header "Request a Quote" scrolls to the hero booking card ----
-// On other pages the header button still goes to /quote-request/.
+// On other pages the header button still goes to /quote-request/. The "24/7
+// Emergency" button always goes to the intake form.
 // The header is sticky, so the card's scroll offset tracks its height.
 const bookCard = document.getElementById('book');
 if (bookCard) {
@@ -25,7 +26,7 @@ if (bookCard) {
   const setOffset = () => { bookCard.style.scrollMarginTop = `${(header?.offsetHeight ?? 0) + 16}px`; };
   setOffset();
   addEventListener('resize', setOffset);
-  $$<HTMLAnchorElement>('header a[href="/quote-request/"]').forEach((a) => {
+  $$<HTMLAnchorElement>('header a[href="/quote-request/"]:not([aria-label^="24/7 emergency"])').forEach((a) => {
     a.addEventListener('click', (e) => {
       e.preventDefault();
       if (menu && !menu.hidden) {
