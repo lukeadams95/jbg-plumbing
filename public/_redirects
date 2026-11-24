@@ -34,3 +34,66 @@
 /contact/ /contact-us/ 301
 /about/ /about-us/ 301
 /services/commercial-plumbing/ /services/ 301
+
+# Old bcsplumber.com WordPress /residential/* and /commercial/* URLs (added 2026-11-24).
+# Specific service matches first; folder catch-alls last. Query strings are kept by Pages.
+# Wayback + GA4 since launch (4 residential 404 landings). Destinations are live sitemap pages only.
+/residential/sewer-repair-college-station-tx-bryan/ /services/sewer-drain-septic/ 301
+/residential/sewer-repair-college-station-tx-bryan /services/sewer-drain-septic/ 301
+/residential/sewer-line-repair-college-station-tx-bryan/ /services/sewer-drain-septic/ 301
+/residential/sewer-line-repair-college-station-tx-bryan /services/sewer-drain-septic/ 301
+/residential/video-pipe-inspection-college-station-tx-bryan/ /services/sewer-drain-septic/ 301
+/residential/video-pipe-inspection-college-station-tx-bryan /services/sewer-drain-septic/ 301
+/residential/toilet-repair-installation-college-station-tx-bryan/ /services/toilets-faucets/ 301
+/residential/toilet-repair-installation-college-station-tx-bryan /services/toilets-faucets/ 301
+/residential/sink-faucet-repair-college-station/ /services/toilets-faucets/ 301
+/residential/sink-faucet-repair-college-station /services/toilets-faucets/ 301
+/residential/garbage-disposal-services-college-station-tx-bryan/ /services/toilets-faucets/ 301
+/residential/garbage-disposal-services-college-station-tx-bryan /services/toilets-faucets/ 301
+/residential/hose-bib-repair-college-station-tx-bryan/ /services/toilets-faucets/ 301
+/residential/hose-bib-repair-college-station-tx-bryan /services/toilets-faucets/ 301
+/residential/water-pressure-repair-college-station-tx-bryan/ /services/water-pressure-filtration/ 301
+/residential/water-pressure-repair-college-station-tx-bryan /services/water-pressure-filtration/ 301
+/residential/water-filter-installation-college-station-tx-bryan/ /services/water-pressure-filtration/ 301
+/residential/water-filter-installation-college-station-tx-bryan /services/water-pressure-filtration/ 301
+/residential/waterline-repair-college-station-tx-bryan/ /services/leak-detection-pipe-repair/ 301
+/residential/waterline-repair-college-station-tx-bryan /services/leak-detection-pipe-repair/ 301
+/residential/leaking-pipe-repair-college-station-tx-bryan/ /services/leak-detection-pipe-repair/ 301
+/residential/leaking-pipe-repair-college-station-tx-bryan /services/leak-detection-pipe-repair/ 301
+/residential/leaking-pipe-college-station-tx/ /services/leak-detection-pipe-repair/ 301
+/residential/leaking-pipe-college-station-tx /services/leak-detection-pipe-repair/ 301
+/residential/slab-leak-repair-college-station-bryan/ /services/leak-detection-pipe-repair/ 301
+/residential/slab-leak-repair-college-station-bryan /services/leak-detection-pipe-repair/ 301
+/residential/hot-water-heater-services-college-station-tx-bryan/ /services/water-heaters/ 301
+/residential/hot-water-heater-services-college-station-tx-bryan /services/water-heaters/ 301
+/residential/tankless-water-heater-college-station-tx-bryan/ /services/water-heaters/ 301
+/residential/tankless-water-heater-college-station-tx-bryan /services/water-heaters/ 301
+/residential/gas-pipe-leak-repair-college-station-tx-bryan/ /gas-line-installation/ 301
+/residential/gas-pipe-leak-repair-college-station-tx-bryan /gas-line-installation/ 301
+/residential/gas-pipe-repair-college-station-tx-bryan/ /gas-line-installation/ 301
+/residential/gas-pipe-repair-college-station-tx-bryan /gas-line-installation/ 301
+/residential/backflow-testing-college-station-tx-bryan/ /backflow-testing/ 301
+/residential/backflow-testing-college-station-tx-bryan /backflow-testing/ 301
+/residential/grease-trap-install-and-repair/ /grease-trap-cleaning/ 301
+/residential/grease-trap-install-and-repair /grease-trap-cleaning/ 301
+/residential/sump-pump-repair-college-station-tx-bryan/ /sump-pump-repair/ 301
+/residential/sump-pump-repair-college-station-tx-bryan /sump-pump-repair/ 301
+/residential/sump-pump-repair-bryan-college-stationwater-pump-replacement/ /sump-pump-repair/ 301
+/residential/sump-pump-repair-bryan-college-stationwater-pump-replacement /sump-pump-repair/ 301
+/residential/247-emergency-services/ /contact-us/ 301
+/residential/247-emergency-services /contact-us/ 301
+/residential/home-maintenance-program-college-station-bryan/ /services/ 301
+/residential/home-maintenance-program-college-station-bryan /services/ 301
+/residential/ /services/ 301
+/residential /services/ 301
+/residential/* /services/ 301
+
+# /commercial/* was not in the Wayback crawl as a folder, but the path 404s live.
+# Related old commercial service URLs (not under /commercial/) also 404, so they are included.
+/commercial-boiler-installation/ /boiler-installation/ 301
+/commercial-boiler-installation /boiler-installation/ 301
+/commercial-gasline-installation/ /gas-line-installation/ 301
+/commercial-gasline-installation /gas-line-installation/ 301
+/commercial/ /services/ 301
+/commercial /services/ 301
+/commercial/* /services/ 301
