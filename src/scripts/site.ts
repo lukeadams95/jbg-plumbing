@@ -16,27 +16,15 @@ $$('[data-act="menu"]').forEach((b) => {
   });
 });
 
-// --- Homepage: header "Request a Quote" scrolls to the hero booking card ----
-// On other pages the header button still goes to /quote-request/. The "24/7
-// Emergency" button always goes to the intake form.
-// The header is sticky, so the card's scroll offset tracks its height.
+// --- Homepage: keep the #book card clear of the sticky header --------------
+// Every "Request a Quote" link goes to the Housecall Pro booking page (new tab).
+// The "24/7 Emergency" button still goes to the intake form.
 const bookCard = document.getElementById('book');
 if (bookCard) {
   const header = document.querySelector('header');
   const setOffset = () => { bookCard.style.scrollMarginTop = `${(header?.offsetHeight ?? 0) + 16}px`; };
   setOffset();
   addEventListener('resize', setOffset);
-  $$<HTMLAnchorElement>('header a[href="/quote-request/"]:not([aria-label^="24/7 emergency"])').forEach((a) => {
-    a.addEventListener('click', (e) => {
-      e.preventDefault();
-      if (menu && !menu.hidden) {
-        menu.hidden = true;
-        $$('[data-act="menu"]').forEach((b) => b.setAttribute('aria-expanded', 'false'));
-      }
-      bookCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      history.replaceState(null, '', '#book');
-    });
-  });
 }
 
 // --- Reviews: "See more" and "Load more" -----------------------------------
