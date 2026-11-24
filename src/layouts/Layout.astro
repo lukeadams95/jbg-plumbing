@@ -25,12 +25,14 @@ const GA_HOSTS = ['bcsplumber.com'];
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title ?? pageTitle(page)}</title>
-  {!noindex && <link rel="canonical" href={canonical} />}
+  {!noindex && page !== 'booked' && <link rel="canonical" href={canonical} />}
   <link rel="icon" href="/uploads/JBG-logo1.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" />
-  {(noindex || page === 'thanks') && <meta name="robots" content="noindex" />}
+  {page === 'booked'
+    ? <meta name="robots" content="noindex,nofollow" />
+    : (noindex || page === 'thanks') && <meta name="robots" content="noindex" />}
   {GA_ID && <script is:inline define:vars={{ GA_ID, GA_SRC, GA_HOSTS }}>
     if (GA_HOSTS.includes(location.hostname)) {
       var s = document.createElement('script'); s.async = true; s.src = GA_SRC; document.head.appendChild(s);

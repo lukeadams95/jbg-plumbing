@@ -9,7 +9,7 @@ export type PageKey =
   | 'home' | 'about' | 'locations' | 'projects' | 'quote' | 'reviews' | 'services'
   | 'grease' | 'expansion' | 'backflow' | 'boilers' | 'gasline' | 'sump'
   | 'heaters' | 'sewer' | 'leak' | 'pressure' | 'toilets'
-  | 'contact' | 'terms' | 'privacy' | 'thanks';
+  | 'contact' | 'terms' | 'privacy' | 'thanks' | 'booked';
 
 export const BOOK_URL = 'https://book.housecallpro.com/book/JBG-Plumbing/4e36de049beb46bc86918c304ca376cb';
 
@@ -37,11 +37,12 @@ export const PAGE_PATH: Record<PageKey, string> = {
   terms: '/terms-of-service/',
   privacy: '/privacy-policy/',
   thanks: '/thank-you/',
+  booked: '/booking-confirmed/',
 };
 
 const SERVICE_PAGES: PageKey[] = ['services', 'grease', 'expansion', 'backflow', 'boilers', 'gasline', 'sump', 'heaters', 'sewer', 'leak', 'pressure', 'toilets'];
 /** Pages without the "LET'S GET IT BUILT RIGHT." CTA band. */
-export const NO_CTA: PageKey[] = ['quote', 'terms', 'privacy', 'thanks'];
+export const NO_CTA: PageKey[] = ['quote', 'terms', 'privacy', 'thanks', 'booked'];
 
 type Kid = { label: string; href: string; weight: number; size: string; color: string; tt: string; bg: string; ring: string; pe: string; mob: string };
 const kid = (label: string, href: string): Kid => ({ label, href, weight: 500, size: '15.5px', color: '#3A3530', tt: 'none', bg: 'transparent', ring: 'none', pe: 'auto', mob: 'block' });

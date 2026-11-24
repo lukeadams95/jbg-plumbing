@@ -1,7 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { PAGE_PATH, type PageKey } from '../data/vals';
-import { PAGE_COMPONENTS } from '../components/generated/pages/index';
+import { PAGE_COMPONENTS as GENERATED } from '../components/generated/pages/index';
+import BookingConfirmed from '../components/pages/BookingConfirmed.astro';
+
+const PAGE_COMPONENTS = { ...GENERATED, booked: BookingConfirmed };
 
 export function getStaticPaths() {
   return (Object.entries(PAGE_PATH) as [PageKey, string][]).map(([page, path]) => ({

@@ -97,3 +97,11 @@
 /commercial/ /services/ 301
 /commercial /services/ 301
 /commercial/* /services/ 301
+
+# Sitelink targets that 404'd after launch (added 2026-11-24, Ads URL list).
+# /septic-tank-cleaning/ is replaced by the sewer/drain/septic service page.
+# /after-hours-request/ has no new equivalent; contact is the 24/7 path.
+/septic-tank-cleaning/ /services/sewer-drain-septic/ 301
+/septic-tank-cleaning /services/sewer-drain-septic/ 301
+/after-hours-request/ /contact-us/ 301
+/after-hours-request /contact-us/ 301
