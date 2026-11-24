@@ -17,7 +17,7 @@ $$('[data-act="menu"]').forEach((b) => {
 });
 
 // --- Homepage: keep the #book card clear of the sticky header --------------
-// Every "Request a Quote" link goes to the Housecall Pro booking page (new tab).
+// Every "Request a Quote" link goes to the on-site /quote-request/ page.
 // The "24/7 Emergency" link is click-to-call (tel:), tracked as phone_call_click.
 const bookCard = document.getElementById('book');
 if (bookCard) {
@@ -27,7 +27,7 @@ if (bookCard) {
   addEventListener('resize', setOffset);
 }
 
-// --- Homepage hero: Housecall Pro booking iframe ---------------------------
+// --- Housecall Pro booking iframe (homepage hero and /quote-request/) ------
 // book.housecallpro.com sends no X-Frame-Options or CSP frame-ancestors, but
 // the official embed still opens the v2 page with postMessage('hcp:open').
 // A bare iframe stays blank until that message is sent. We do the same here,

@@ -1,7 +1,3 @@
-# The old quote form page now goes to Housecall Pro booking.
-/quote-request/ https://book.housecallpro.com/book/JBG-Plumbing/4e36de049beb46bc86918c304ca376cb 301
-/quote-request https://book.housecallpro.com/book/JBG-Plumbing/4e36de049beb46bc86918c304ca376cb 301
-
 # Old WordPress URLs -> new pages (301). Cloudflare Pages applies these before static files.
 /commercial-plumber-services/ /services/ 301
 /commercial-plumber-services /services/ 301
