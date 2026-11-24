@@ -18,7 +18,7 @@ $$('[data-act="menu"]').forEach((b) => {
 
 // --- Homepage: keep the #book card clear of the sticky header --------------
 // Every "Request a Quote" link goes to the Housecall Pro booking page (new tab).
-// The "24/7 Emergency" button still goes to the intake form.
+// The "24/7 Emergency" online request link uses the same booking destination.
 const bookCard = document.getElementById('book');
 if (bookCard) {
   const header = document.querySelector('header');
@@ -26,6 +26,31 @@ if (bookCard) {
   setOffset();
   addEventListener('resize', setOffset);
 }
+
+// --- Lead tracking (GA4) ----------------------------------------------------
+// generate_lead on any Housecall Pro booking link, phone_call_click on tel:
+// links. No-op unless the GA tag loaded (GA_ID set and on the live domain).
+const linkLocation = (a: Element) => {
+  if (a.closest('[data-mobile-menu]')) return 'mobile_menu';
+  if (a.closest('header')) return 'header';
+  if (a.closest('footer')) return 'footer';
+  if (a.closest('.bp-mob')) return 'mobile_call_bar';
+  const label = a.closest('[data-screen-label]')?.getAttribute('data-screen-label');
+  return label ? label.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '') : 'body';
+};
+document.addEventListener('click', (e) => {
+  const gtag = (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag;
+  if (typeof gtag !== 'function') return;
+  const a = (e.target as Element).closest<HTMLAnchorElement>('a[href]');
+  if (!a) return;
+  const href = a.getAttribute('href') ?? '';
+  const common = { link_url: a.href, link_location: linkLocation(a), page_path: location.pathname, transport_type: 'beacon' };
+  if (/^https:\/\/book\.housecallpro\.com\//.test(a.href)) {
+    gtag('event', 'generate_lead', { method: 'housecallpro_booking', ...common });
+  } else if (href.startsWith('tel:')) {
+    gtag('event', 'phone_call_click', { phone_number: href.slice(4), ...common });
+  }
+}, { capture: true });
 
 // --- Reviews: "See more" and "Load more" -----------------------------------
 document.addEventListener('click', (e) => {

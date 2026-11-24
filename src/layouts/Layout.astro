@@ -12,8 +12,12 @@ import { pageTitle } from '../data/meta';
 interface Props { page: PageKey; title?: string; noindex?: boolean }
 const { page, title, noindex } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-// GA4 Measurement ID (G-XXXXXXX). Leave empty to ship no analytics tag.
-const GA_ID = '';
+// GA4 Measurement ID (JBG Plumbing property 565708776, stream 16401960953).
+// Leave empty to ship no analytics tag.
+const GA_ID = 'G-JT80NKDX4D';
+const GA_SRC = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+// Only the live domain loads GA, so pages.dev staging and previews don't count.
+const GA_HOSTS = ['bcsplumber.com'];
 ---
 <!doctype html>
 <html lang="en">
@@ -27,12 +31,14 @@ const GA_ID = '';
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" />
   {(noindex || page === 'thanks') && <meta name="robots" content="noindex" />}
-  {GA_ID && <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>}
-  {GA_ID && <script is:inline define:vars={{ GA_ID }}>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', GA_ID);
+  {GA_ID && <script is:inline define:vars={{ GA_ID, GA_SRC, GA_HOSTS }}>
+    if (GA_HOSTS.includes(location.hostname)) {
+      var s = document.createElement('script'); s.async = true; s.src = GA_SRC; document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){ window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', GA_ID);
+    }
   </script>}
   <!-- Feedbucket review widget: staging site (jbg-plumbing.pages.dev) only. -->
   <script is:inline type="text/javascript">
