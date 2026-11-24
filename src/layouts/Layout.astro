@@ -9,8 +9,8 @@ import MobileCallBar from '../components/generated/MobileCallBar.astro';
 import { NO_CTA, type PageKey } from '../data/vals';
 import { pageTitle } from '../data/meta';
 
-interface Props { page: PageKey }
-const { page } = Astro.props;
+interface Props { page: PageKey; title?: string; noindex?: boolean }
+const { page, title, noindex } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 // GA4 Measurement ID (G-XXXXXXX). Leave empty to ship no analytics tag.
 const GA_ID = '';
@@ -20,13 +20,13 @@ const GA_ID = '';
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{pageTitle(page)}</title>
-  <link rel="canonical" href={canonical} />
+  <title>{title ?? pageTitle(page)}</title>
+  {!noindex && <link rel="canonical" href={canonical} />}
   <link rel="icon" href="/uploads/JBG-logo1.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" />
-  {page === 'thanks' && <meta name="robots" content="noindex" />}
+  {(noindex || page === 'thanks') && <meta name="robots" content="noindex" />}
   {GA_ID && <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>}
   {GA_ID && <script is:inline define:vars={{ GA_ID }}>
     window.dataLayer = window.dataLayer || [];
