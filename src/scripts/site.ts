@@ -18,7 +18,7 @@ $$('[data-act="menu"]').forEach((b) => {
 
 // --- Homepage: keep the #book card clear of the sticky header --------------
 // Every "Request a Quote" link goes to the Housecall Pro booking page (new tab).
-// The "24/7 Emergency" online request link uses the same booking destination.
+// The "24/7 Emergency" link is click-to-call (tel:), tracked as phone_call_click.
 const bookCard = document.getElementById('book');
 if (bookCard) {
   const header = document.querySelector('header');
