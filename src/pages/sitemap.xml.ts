@@ -2,7 +2,7 @@ import type { APIRoute } from 'astro';
 import { PAGE_PATH, type PageKey } from '../data/vals';
 
 // Every real page except the thank-you page (noindex) and /quote-request/.
-const EXCLUDE: PageKey[] = ['thanks', 'quote']; // /quote-request/ 301s to Housecall Pro
+const EXCLUDE: PageKey[] = ['thanks', 'quote', 'booked']; // /quote-request/ 301s to Housecall Pro; /booking-confirmed/ is noindex
 
 export const GET: APIRoute = ({ site }) => {
   const urls = (Object.entries(PAGE_PATH) as [PageKey, string][])

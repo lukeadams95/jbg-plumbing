@@ -24,6 +24,7 @@ export const TITLES: Record<PageKey, string> = {
   terms: 'Terms of Service',
   privacy: 'Privacy Policy',
   thanks: 'Thank You',
+  booked: 'Booking Confirmed',
 };
 
 export const pageTitle = (p: PageKey) => (p === 'home' ? TITLES.home : `${TITLES[p]} | JBG Commercial Plumbing`);
