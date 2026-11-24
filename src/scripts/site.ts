@@ -27,6 +27,48 @@ if (bookCard) {
   addEventListener('resize', setOffset);
 }
 
+// --- Homepage hero: Housecall Pro booking iframe ---------------------------
+// book.housecallpro.com sends no X-Frame-Options or CSP frame-ancestors, but
+// the official embed still opens the v2 page with postMessage('hcp:open').
+// A bare iframe stays blank until that message is sent. We do the same here,
+// inline in the hero, and append gclid / utm_* / keyword from the page URL.
+const HCP_BOOK = 'https://book.housecallpro.com/book/JBG-Plumbing/4e36de049beb46bc86918c304ca376cb';
+const HCP_ORIGIN = 'https://book.housecallpro.com';
+const hcpFrame = document.getElementById('hcp-booking') as HTMLIFrameElement | null;
+if (hcpFrame) {
+  const trackingParams = () => {
+    const next = new URLSearchParams();
+    next.set('v2', 'true');
+    try {
+      new URLSearchParams(location.search).forEach((val, key) => {
+        const k = key.toLowerCase();
+        if (k === 'gclid' || k === 'keyword' || k.startsWith('utm_')) next.set(key, val);
+      });
+    } catch {
+      // ignore malformed query strings
+    }
+    return next;
+  };
+  const params = trackingParams();
+  hcpFrame.src = `${HCP_BOOK}?${params.toString()}`;
+  const openHcp = () => {
+    const win = hcpFrame.contentWindow;
+    if (!win) return;
+    const obj: Record<string, string> = {};
+    params.forEach((val, key) => { if (key !== 'v2') obj[key] = val; });
+    if (Object.keys(obj).length) win.postMessage({ type: 'hcp:open', params: obj }, '*');
+    else win.postMessage('hcp:open', '*');
+  };
+  hcpFrame.addEventListener('load', openHcp);
+  addEventListener('message', (e: MessageEvent) => {
+    if (e.origin !== HCP_ORIGIN) return;
+    if (e.data === 'hcp:iframe-loaded' || e.data === 'hcp:close') openHcp();
+    if (e.data && typeof e.data === 'object' && e.data.type === 'hcp:redirect' && typeof e.data.url === 'string') {
+      location.href = e.data.url;
+    }
+  });
+}
+
 // --- Lead tracking (GA4) ----------------------------------------------------
 // generate_lead on any Housecall Pro booking link, phone_call_click on tel:
 // links. No-op unless the GA tag loaded (GA_ID set and on the live domain).
