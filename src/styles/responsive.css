@@ -96,3 +96,9 @@
 
 /* 24/7 Emergency header button (links to the intake form). */
 header a[aria-label^="24/7 emergency"]:hover { background: #9E1824 !important; color: #fff !important; }
+
+/* In-hero Housecall Pro booking iframe: fill the card, no horizontal scroll. */
+.hcp-booking-frame { width: 100%; max-width: 100%; height: 680px; border: 0; display: block; }
+@media (max-width: 939px) {
+  .hcp-booking-frame { height: 620px; }
+}
